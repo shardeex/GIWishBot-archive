@@ -1,0 +1,1 @@
+This is an English image directory. The file is necessary to ensure that the directory is not considered empty.

@@ -1,0 +1,5 @@
+aiogram==3.0.0b1
+databases==0.5.3
+PyGithub==1.55
+Pillow==8.4.0
+SQLAlchemy==1.4.25

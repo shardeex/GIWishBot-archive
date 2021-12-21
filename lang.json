@@ -1,0 +1,22 @@
+{
+    "wish": {
+        "en": "{description}\n\n{mention}, you recieved {name} {stars}!",
+        "ru": "{description}\n\n{mention}, награда за молитву — {name} {stars}!"
+    },
+    "already_wished": {
+        "en": "{mention}, you can wish again in {time_left}.",
+        "ru": "{mention}, следующая молитва будет доступна через {time_left}."
+    },
+    "wish_only_in_chat": {
+        "en": "You are allowed to wish only in chat.",
+        "ru": "Вы можете молиться только в чате."
+    },
+    "inventory": {
+        "en": "{mention}, here's your inventory:\n\n{inventory}",
+        "ru": "{mention}, вот Ваш инвентарь:\n\n{inventory}"
+    },
+    "empty_inventory": {
+        "en": "{mention}, you have no items in inventory!",
+        "ru": "{mention}, у Вас в инвентаре ничего нет!"
+    }
+}
