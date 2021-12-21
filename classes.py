@@ -124,10 +124,10 @@ class Gacha():
         """
         Generates images based on assets.
         """
-        image = Image.open('assets\\wishes_background.png')
-        star = Image.open('assets\\star.png').convert(mode='RGBA')
+        image = Image.open('assets/wishes_background.png')
+        star = Image.open('assets/star.png').convert(mode='RGBA')
         draw = ImageDraw.Draw(image)
-        font = ImageFont.truetype('assets\\font.ttf', 32)
+        font = ImageFont.truetype('assets/font.ttf', 32)
 
         item.box = self.boxes[item.group]
         item.size = item.box[2] - item.box[0], item.box[3] - item.box[1]
@@ -137,24 +137,24 @@ class Gacha():
         if item.group == 'weapon':
             # weapon_bg, weapon_shadow, weapon & weapon_icon
             assets.append((
-                Image.open(f'assets\\weapon_bg\\{item.type}.png').resize((589, 589)),
+                Image.open(f'assets/weapon_bg/{item.type}.png').resize((589, 589)),
                 self.boxes['weapon_bg']))
             assets.append((ImageEnhance.Brightness(
-                Image.open(f'assets\\{item.group}s\\{item.id}.png').resize(item.size)).enhance(0.1),
+                Image.open(f'assets/{item.group}s/{item.id}.png').resize(item.size)).enhance(0.1),
                 self.boxes['weapon_shadow']))
             assets.append((
-                Image.open(f'assets\\{item.group}s\\{item.id}.png').resize(item.size),
+                Image.open(f'assets/{item.group}s/{item.id}.png').resize(item.size),
                 self.boxes['weapon']))
             assets.append((
-                Image.open(f'assets\\{item.group}_icon\\{item.type}.png'),
+                Image.open(f'assets/{item.group}_icon/{item.type}.png'),
                 self.boxes['icon']))
         elif item.group == 'character':
             # character & element
             assets.append((
-                Image.open(f'assets\\{item.group}s\\{item.id}.png').resize(item.size),
+                Image.open(f'assets/{item.group}s/{item.id}.png').resize(item.size),
                 self.boxes['character']))
             assets.append((
-                Image.open(f'assets\\element_icon\\{item.element}.png'),
+                Image.open(f'assets/element_icon/{item.element}.png'),
                 self.boxes['icon']))
         else:
             raise ValueError(item)
@@ -183,8 +183,8 @@ class Gacha():
                 name_strings[i], (255, 255, 255), font,
                 stroke_width=1, stroke_fill=(0, 0, 0))
 
-        profile = ImageCms.ImageCmsProfile('assets\\AdobeRGB1998.icc')
-        image.save(f'assets\\gacha\\{lang}\\{item.id}.png', icc_profile=profile.tobytes())
+        profile = ImageCms.ImageCmsProfile('assets/AdobeRGB1998.icc')
+        image.save(f'assets/gacha/{lang}/{item.id}.png', icc_profile=profile.tobytes())
     
     def check_images(self):
         """
@@ -201,7 +201,7 @@ class Gacha():
                     repo.create_file(
                         f'assets/gacha/{lang}/{item.id}.png',
                         f'[BOT] create {item.name["en"]} picture for {lang}',
-                        open(f'assets\\gacha\\{lang}\\{item.id}.png', 'rb').read())
+                        open(f'assets/gacha/{lang}/{item.id}.png', 'rb').read())
         
         self.__init__()
     
