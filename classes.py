@@ -90,7 +90,7 @@ class Gacha():
 
     # wish times. every day users will be available to wish exactly at this time.
     # e.g. datetime.time(5) means 5:00AM, datetime.time(18) means 6:00AM.
-    wish_times = (datetime.time(0), datetime.time(12))
+    wish_times = (datetime.time(9), datetime.time(21))
 
     # repository name (useful for debug)
     repo_name = 'GenshinWishBot'
