@@ -259,6 +259,8 @@ class Gacha():
         # creates today datetimes from wish times and adds one extra tommorow
         wish_datetimes = list(
             [datetime.datetime.combine(
+                now.date() + datetime.timedelta(days=-1), self.wish_times[-1])] + \
+            [datetime.datetime.combine(
                 now.date(), time) for time in self.wish_times]) + \
             [datetime.datetime.combine(
                 now.date() + datetime.timedelta(days=1), self.wish_times[0])]
