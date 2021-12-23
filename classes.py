@@ -242,14 +242,14 @@ class Gacha():
                 words.append(self.format_ru_word(hour, ['час', 'часа', 'часов']))
             if minute != 0:
                 words.append(self.format_ru_word(minute, ['минуту', 'минуты', 'минут']))
-            if second != 0:
+            if hour == 0 and minute == 0:
                 words.append(self.format_ru_word(second, ['секунду', 'секунды', 'секунд']))
         else:  # lang == 'en' or invalid
             if hour != 0:
                 words.append(self.format_en_word(hour, ['hour', 'hours']))
             if minute != 0:
                 words.append(self.format_en_word(minute, ['minute', 'minutes']))
-            if second != 0:
+            if hour == 0 and minute == 0:
                 words.append(self.format_en_word(second, ['second', 'seconds']))
         return ', '.join(words)
     
