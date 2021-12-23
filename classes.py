@@ -205,53 +205,53 @@ class Gacha():
         
         self.__init__()
     
-    def format_ru_word(self, number: int, word: list, sep='') -> str:
+    def format_ru_word(self, number: int, word: list) -> str:
         """
         Formatting time to readable Russian string in already_wished message
         For example: "1 час 2 минуты 3 секунды"
-        Also it is possible to select separator or another word forms. 
         """
-        if number == 0:
-            return ''
         # число кончается на единицу, а десяток не равен единице (1, 21)
-        elif number%10 == 1 and number//10%10 != 1:
-            return f'{number} {word[0]}{sep}'
+        if number%10 == 1 and number//10%10 != 1:
+            return f'{number} {word[0]}'
         # число кончается на 2, 3, 4, а десяток не равен единице (2, 33)
         elif number%10 in (2, 3, 4) and number//10%10 != 1:
-            return f'{number} {word[1]}{sep}'
+            return f'{number} {word[1]}'
         # всё остальное (5, 10, 13, 26)
         else:
-            return f'{number} {word[2]}{sep}'
+            return f'{number} {word[2]}'
     
-    def format_en_word(self, number: int, word: list, sep=''):
+    def format_en_word(self, number: int, word: list):
         """
         Formatting time to readable English string in already_wished message
         For example: "1 hour 2 minutes 3 seconds"
-        Also it is possible to select separator or another word forms.
         
         ye I really like english simplicity. one or many - that's all
         """
-        if number == 0:
-            return ''
-        elif number%10 == 1:
-            return f'{number} {word[0]}{sep}'
+        if number%10 == 1:
+            return f'{number} {word[0]}'
         else:
-            return f'{number} {word[1]}{sep}'
+            return f'{number} {word[1]}'
     
     def time_left_string(self, hour: int, minute: int, second: int, lang: str) -> str:
         """
         Formatting time to readable string.
         """
+        words = []
         if lang == 'ru':
-            hours = self.format_ru_word(hour, ['час', 'часа', 'часов'], sep=' ')
-            minutes = self.format_ru_word(minute, ['минуту', 'минуты', 'минут'], sep=' ')
-            seconds = self.format_ru_word(second, ['секунду', 'секунды', 'секунд'])
-            return hours + minutes + seconds
+            if hour != 0:
+                words.append(self.format_ru_word(hour, ['час', 'часа', 'часов']))
+            if minute != 0:
+                words.append(self.format_ru_word(minute, ['минуту', 'минуты', 'минут']))
+            if second != 0:
+                words.append(self.format_ru_word(second, ['секунду', 'секунды', 'секунд']))
         else:  # lang == 'en' or invalid
-            hours = self.format_en_word(hour, ['hour', 'hours'], sep=' ')
-            minutes = self.format_en_word(minute, ['minute', 'minutes'], sep=' ')
-            seconds = self.format_en_word(second, ['second', 'seconds'])
-            return hours + minutes + seconds
+            if hour != 0:
+                words.append(self.format_en_word(hour, ['hour', 'hours']))
+            if minute != 0:
+                words.append(self.format_en_word(minute, ['minute', 'minutes']))
+            if second != 0:
+                words.append(self.format_en_word(second, ['second', 'seconds']))
+        return ', '.join(words)
     
     def wish(self, user: User) -> str:
         now = datetime.datetime.now()

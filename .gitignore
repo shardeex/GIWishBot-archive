@@ -1,3 +1,4 @@
-# this is data.json generator using genshin-impact.fandom.com
+# fandom.py is data.json generator using genshin-impact.fandom.com
 # it's very ugly, so pls wait until I rewrite it. thanks.
 fandom.py
+/__pycache__
