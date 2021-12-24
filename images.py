@@ -24,8 +24,8 @@ class Images():
     def __init__(self):
         self.repository = github.Github(utils.GITHUB_TOKEN).get_user().get_repo(utils.REPOSITORY_NAME)
         self.assets_dirs = {
-            'weapon': os.listdir(f'assets/weapons'),
-            'character': os.listdir(f'assets/characters')}
+            'weapon': list(w[:-4] for w in os.listdir(f'assets/weapons')),
+            'character': list(c[:-4] for c in os.listdir(f'assets/characters'))}
     
     def _get(self, item, lang):
         return f'https://raw.githubusercontent.com/shardeex/{utils.REPOSITORY_NAME}/main/assets/gacha/{lang}/{item.id}.png'
