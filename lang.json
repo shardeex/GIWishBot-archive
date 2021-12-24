@@ -1,22 +1,18 @@
 {
-    "wish": {
-        "en": "{description}\n\n{mention}, you recieved {name} {stars}!",
-        "ru": "{description}\n\n{mention}, награда за молитву — {name} {stars}!"
+    "en": {
+        "wish": "{description}\n\n{user.mention}, you recieved {name}!<a href='https://raw.githubusercontent.com/shardeex/GIWishBot/main/assets/gacha/en/{item.id}.png'>⁠</a>",
+        "wish_in_private": "You are allowed to wish only in group chat.",
+        "already_wished": "{user.mention}, you can wish again in {user.time_next_wish_left}.",
+        "inventory_in_private": "Here's your inventory: {user.inventory_string}",
+        "inventory_in_group": "{user.mention}, here's your inventory: {user.inventory_string}",
+        "inventory_empty": "the truth is that there is no items."
     },
-    "already_wished": {
-        "en": "{mention}, you can wish again in {time_left}.",
-        "ru": "{mention}, следующая молитва будет доступна через {time_left}."
-    },
-    "wish_only_in_chat": {
-        "en": "You are allowed to wish only in chat.",
-        "ru": "Вы можете молиться только в чате."
-    },
-    "inventory": {
-        "en": "{mention}, here's your inventory:\n\n{inventory}",
-        "ru": "{mention}, вот Ваш инвентарь:\n\n{inventory}"
-    },
-    "empty_inventory": {
-        "en": "{mention}, you have no items in inventory!",
-        "ru": "{mention}, у Вас в инвентаре ничего нет!"
+    "ru": {
+        "wish": "{description}\n\n{user.mention}, награда за молитву — {name}!<a href='https://raw.githubusercontent.com/shardeex/GIWishBot/main/assets/gacha/ru/{item.id}.png'>⁠</a>",
+        "wish_in_private": "Вы можете молиться только в групповом чате.",
+        "already_wished": "{user.mention}, следующая молитва будет доступна через {user.time_next_wish_left}.",
+        "inventory_in_private": "Вот Ваш инвентарь: {user.inventory_string}",
+        "inventory_in_group": "{user.mention}, вот Ваш инвентарь: {user.inventory_string}",
+        "inventory_empty": "в нём ничего нет, но вы держитесь."
     }
 }

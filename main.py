@@ -1,36 +1,51 @@
 import asyncio
-import os
 
 import aiogram
 
-from classes import Gacha, User, database
+import utils
+from user import User, database
+from wishes import Wishes
+
+
+bot = aiogram.Bot(token=utils.TELEGRAM_TOKEN, parse_mode='HTML')
+
+en_wish_command = aiogram.types.bot_command.BotCommand(command='wish', description='Barbatos, hear our wishes!')
+en_inventory_command = aiogram.types.bot_command.BotCommand(command='inv', description='Check backpack')
+
+ru_wish_command = aiogram.types.bot_command.BotCommand(command='wish', description='Барбатос, услышь наши молитвы!')
+ru_inventory_command = aiogram.types.bot_command.BotCommand(command='inv', description='Проверить рюкзак')
+
+private_scope = aiogram.types.bot_command_scope_all_private_chats.BotCommandScopeAllPrivateChats()
+group_scope = aiogram.types.bot_command_scope_all_group_chats.BotCommandScopeAllGroupChats()
 
 router = aiogram.Router()
-
-gacha = Gacha()
-gacha.check_images()
+wishes = Wishes()
 
 
 @router.message(aiogram.filters.Command(commands=['wish']))
 async def wish(message: aiogram.types.message.Message):
     user = User(message.from_user)
-    if message.chat.type == 'private':
-        await message.answer(user.wish_only_in_chat())
-    else:
-        await user.load_from_database()
-        await message.reply(gacha.wish(user))
-        await user.save_to_database()
+    await user.load_from_database()
+    await message.answer(wishes.wish(user, message.chat.type))
+    await user.save_to_database()
 
-@router.message(aiogram.filters.Command(commands=['inv', 'inventory']))
+@router.message(aiogram.filters.Command(commands=['inv']))
 async def inventory(message: aiogram.types.message.Message):
     user = User(message.from_user)
     await user.load_from_database()
-    await message.answer(gacha.inventory(user))
-
+    await message.answer(wishes.inventory(user, message.chat.type))
+    await user.save_to_database()
 
 async def main():
     await database.connect()
-    bot = aiogram.Bot(token=os.getenv('TELEGRAM_TOKEN'), parse_mode='HTML')
+
+    # en commands
+    await bot.set_my_commands([en_wish_command, en_inventory_command], scope=group_scope, language_code='en')
+    await bot.set_my_commands([en_inventory_command], scope=private_scope, language_code='en')
+    # ru commands
+    await bot.set_my_commands([ru_wish_command, ru_inventory_command], scope=group_scope, language_code='ru')
+    await bot.set_my_commands([ru_inventory_command], scope=private_scope, language_code='ru')
+
     dispatcher = aiogram.Dispatcher()
     dispatcher.include_router(router)
     await dispatcher.start_polling(bot)
