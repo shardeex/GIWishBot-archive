@@ -10,7 +10,7 @@ from images import Images
 bot = aiogram.Bot(token=utils.TELEGRAM_TOKEN, parse_mode='HTML')
 
 en_wish_command = aiogram.types.bot_command.BotCommand(command='wish', description='Barbatos, hear our wishes!')
-en_inventory_command = aiogram.types.bot_command.BotCommand(command='inv', description='Time toheck your backpack')
+en_inventory_command = aiogram.types.bot_command.BotCommand(command='inv', description='Time to check your backpack')
 
 ru_wish_command = aiogram.types.bot_command.BotCommand(command='wish', description='Барбатос, услышь наши молитвы!')
 ru_inventory_command = aiogram.types.bot_command.BotCommand(command='inv', description='Время проверить свой рюкзак')
