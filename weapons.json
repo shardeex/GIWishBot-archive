@@ -1,0 +1,1766 @@
+[
+    {
+        "id": "akuoumaru",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Akuoumaru",
+            "ru": "Акуомару"
+        },
+        "description": {
+            "en": "The beloved sword of the legendary \"Akuou.\" The blade is huge and majestic, but is surprisingly easy to wield.",
+            "ru": "Любимый меч Акуо - «злого тирана». Лезвие его огромно и величественно, но вопреки ожиданиям, в руке меч очень лёгок."
+        }
+    },
+    {
+        "id": "alley_hunter",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Alley Hunter",
+            "ru": "Охотник во тьме"
+        },
+        "description": {
+            "en": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
+            "ru": "Мастерски исполненный роскошный лук. Принадлежал он благородному вору, которого никто так и не поймал"
+        }
+    },
+    {
+        "id": "amenoma_kageuchi",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Amenoma Kageuchi",
+            "ru": "Амэнома Кагэути"
+        },
+        "description": {
+            "en": "A blade custom made for a famed samurai who could strike down a tengu warrior, known for their incredible agility, in midair.",
+            "ru": "Клинок, сделанный специально для знаменитого самурая, который мог сразить ловкого тэнгу прямо в воздухе."
+        }
+    },
+    {
+        "id": "amos_bow",
+        "rarity": 5,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Amos' Bow",
+            "ru": "Лук Амоса"
+        },
+        "description": {
+            "en": "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.",
+            "ru": "Необычайно древний лук, который до сих пор сохранил силу своего давно ушедшего хозяина. Он поглощает энергию всего и всех на свете. Чем дальше вы от желаемой цели, тем мощнее выпущенные им стрелы."
+        }
+    },
+    {
+        "id": "apprentices_notes",
+        "rarity": 1,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Apprentice's Notes",
+            "ru": "Записи ученика"
+        },
+        "description": {
+            "en": "Notes left behind by a top student. Many useful spells are listed, and the handwriting is beautiful.",
+            "ru": "Конспекты, оставленные лучшим учеником класса, содержит много полезных заклинаний. Написано прекрасным почерком."
+        }
+    },
+    {
+        "id": "aquila_favonia",
+        "rarity": 5,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Aquila Favonia",
+            "ru": "Меч Сокола"
+        },
+        "description": {
+            "en": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil—just like the last heroine who wielded it.",
+            "ru": "Дух рыцарей Ордо Фавониус. Спустя века он всё ещё взывает к ветрам правосудия, чтобы наказать зло, словно героиня легенд, что была когда-то его владельцем."
+        }
+    },
+    {
+        "id": "beginners_protector",
+        "rarity": 1,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Beginner's Protector",
+            "ru": "Копьё новичка"
+        },
+        "description": {
+            "en": "A polearm as straight as a flag pole. Well suited to most combat situations, it has an imposing presence when swung.",
+            "ru": "Обычное копьё. Прямое, как флагшток. Одним его взмахом можно разрешить большинство споров."
+        }
+    },
+    {
+        "id": "black_tassel",
+        "rarity": 3,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Black Tassel",
+            "ru": "Чёрная кисть"
+        },
+        "description": {
+            "en": "An exceptionally powerful polearm that also offers a simple but elegant solution to the issue of the easily stained white tassel.",
+            "ru": "Простое решение проблемы Белой кисти, которую чересчур легко запачкать."
+        }
+    },
+    {
+        "id": "blackcliff_agate",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Blackcliff Agate",
+            "ru": "Черногорский агат"
+        },
+        "description": {
+            "en": "A mysterious catalyst made of blackstone. It has an ominous crimson glow that seems to pulse in synchronization with the tremors from deep within the earth.",
+            "ru": "Загадочный катализатор, сделанный из черногорского камня. Его зловещее малиновое сияние пульсирует в такт подземным толчкам."
+        }
+    },
+    {
+        "id": "blackcliff_longsword",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Blackcliff Longsword",
+            "ru": "Черногорский длинный меч"
+        },
+        "description": {
+            "en": "A sword made of blackstone. It has a dark crimson glow on its black blade.",
+            "ru": "Этот меч сделан из обломков скал Черногорья. Его тёмное лезвие имеет кровавое свечение."
+        }
+    },
+    {
+        "id": "blackcliff_pole",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Blackcliff Pole",
+            "ru": "Черногорская пика"
+        },
+        "description": {
+            "en": "A weapon made of blackstone and aerosiderite. There is a dark crimson glow on its cold black sheen.",
+            "ru": "Оружие, сделанное из чёрного камня и метеоритного железа. Его холодный клинок отливает кроваво-красным цветом."
+        }
+    },
+    {
+        "id": "blackcliff_slasher",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Blackcliff Slasher",
+            "ru": "Черногорская бритва"
+        },
+        "description": {
+            "en": "An extremely sturdy greatsword from the Blackcliff Forge. It has a dark crimson color from the blade to the pommel.",
+            "ru": "Крепкий двуручный меч из кузницы Черногорья. Лезвие отливает зловещим красным цветом."
+        }
+    },
+    {
+        "id": "blackcliff_warbow",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Blackcliff Warbow",
+            "ru": "Черногорский боевой лук"
+        },
+        "description": {
+            "en": "A bow made of blackstone that features extremely sturdy bow limbs. It requires an archer with a strong bow arm to use.",
+            "ru": "Весьма крепкий лук из чёрного камня. Только лучники с сильными руками смогут им воспользоваться."
+        }
+    },
+    {
+        "id": "bloodtainted_greatsword",
+        "rarity": 3,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Bloodtainted Greatsword",
+            "ru": "Меч драконьей крови"
+        },
+        "description": {
+            "en": "A steel sword that is said to have been coated with dragon blood, rendering it invulnerable to damage. This effect is not extended to its wielder, however.",
+            "ru": "Стальной меч, по легенде запятнанный кровью дракона, что делает его невосприимчивым к повреждениям. Однако, это свойство не распространяется на его владельца."
+        }
+    },
+    {
+        "id": "cinnabar_spindle",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Cinnabar Spindle",
+            "ru": "Киноварное веретено"
+        },
+        "description": {
+            "en": "A sword made from materials that do not belong in this world. The power within might even be able to withstand the corruption of a venom that could corrode a mighty dragon.",
+            "ru": "Материалы, из которых сделан этот меч, явно ведут происхождение не из этого мира. Он выдержит даже сильнейший яд, способный разъесть могучего дракона."
+        }
+    },
+    {
+        "id": "compound_bow",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Compound Bow",
+            "ru": "Составной лук"
+        },
+        "description": {
+            "en": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
+            "ru": "Экзотичный металлический составной лук, привезённый издалека. Сложен в уходе, но прост в обращении."
+        }
+    },
+    {
+        "id": "cool_steel",
+        "rarity": 3,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Cool Steel",
+            "ru": "Холодное лезвие"
+        },
+        "description": {
+            "en": "A reliable steel-forged weapon that serves as a testament to the great adventures of its old master.",
+            "ru": "Стальной меч, на который можно положиться. Служит доказательством великих завоеваний своего прежнего владельца."
+        }
+    },
+    {
+        "id": "crescent_pike",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Crescent Pike",
+            "ru": "Пика полумесяца"
+        },
+        "description": {
+            "en": "An exotic weapon with an extremely long blade on the top and a crescent blade at the bottom. It found its way into Liyue through foreign traders. With practice, it can deal heavy damage.",
+            "ru": "Экзотичное оружие с длинным лезвием на одном коне и полукруглым лезвием на другом. Попало в Ли Юэ благодаря иностранным торговцам. В умелых руках может наносить огромный урон."
+        }
+    },
+    {
+        "id": "dark_iron_sword",
+        "rarity": 3,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Dark Iron Sword",
+            "ru": "Тёмный железный меч"
+        },
+        "description": {
+            "en": "A perfectly ordinary iron sword, just slightly darker than most.",
+            "ru": "На самом деле это просто немного тёмный железный меч."
+        }
+    },
+    {
+        "id": "deathmatch",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Deathmatch",
+            "ru": "Смертельный бой"
+        },
+        "description": {
+            "en": "A sharp crimson polearm that was once a gladiator's priceless treasure. Its awl has been stained by the blood of countless beasts and men.",
+            "ru": "Один гладиатор очень дорожил этим копьём. Остриё его познало кровь бесчисленного множества людей и тварей."
+        }
+    },
+    {
+        "id": "debate_club",
+        "rarity": 3,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Debate Club",
+            "ru": "Дубина переговоров"
+        },
+        "description": {
+            "en": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
+            "ru": "Удобная дубина, сделанная из качественной стали. Фундамент «Рационального убеждения»."
+        }
+    },
+    {
+        "id": "dodoco_tales",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Dodoco Tales",
+            "ru": "Истории Додоко"
+        },
+        "description": {
+            "en": "A children's book filled with childish short stories at which one cannot help but laugh. Even those readers who have long reached adulthood cannot help be be absorbed by the innocent, naive little adventures portayed within.",
+            "ru": "Книга, состоящая из увлекательных детских историй, которые невольно вызывают улыбку на лице. Даже взрослые читатели с детским восторгом готовы погрузиться с головой в описанные здесь невинные и наивные маленькие приключения."
+        }
+    },
+    {
+        "id": "dragons_bane",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Dragon's Bane",
+            "ru": "Гроза драконов"
+        },
+        "description": {
+            "en": "A polearm decorated with an entwining golden dragon. Light and sharp, this weapon may very well kill dragons with ease.",
+            "ru": "Копьё, декорированное извивающимся золотым драконом. Будучи лёгким и острым, это копьё может с лёгкостью убить дракона."
+        }
+    },
+    {
+        "id": "dragonspine_spear",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Dragonspine Spear",
+            "ru": "Копьё Драконьего хребта"
+        },
+        "description": {
+            "en": "A Spear created from the fang of a dragon. It is oddly warm to the touch.",
+            "ru": "Копьё из драконьих клыков. От него исходит необычное тепло."
+        }
+    },
+    {
+        "id": "dull_blade",
+        "rarity": 1,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Dull Blade",
+            "ru": "Тупой меч"
+        },
+        "description": {
+            "en": "Youthful dreams and the thrill of adventure. If this isn't enough, then make it up with valiance.",
+            "ru": "Юношеские мечты и жажда приключений, приправленные отвагой."
+        }
+    },
+    {
+        "id": "elegy_for_the_end",
+        "rarity": 5,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Elegy for the End",
+            "ru": "Элегия погибели"
+        },
+        "description": {
+            "en": "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.",
+            "ru": "В изящности этот лук не уступает лире барда. Словно вздох печали, выпущенные из него стрелы разят точно в сердце."
+        }
+    },
+    {
+        "id": "emerald_orb",
+        "rarity": 3,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Emerald Orb",
+            "ru": "Изумрудный шар"
+        },
+        "description": {
+            "en": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\"",
+            "ru": "Катализатор, вырезанный из твёрдого нефрита, добываемого в Заоблачном пределе на севере Ли Юэ. Он маленький, лёгкий и прочный."
+        }
+    },
+    {
+        "id": "engulfing_lightning",
+        "rarity": 5,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Engulfing Lightning",
+            "ru": "Сияющая жатва"
+        },
+        "description": {
+            "en": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
+            "ru": "Нагината для лёгкого «срезания травы». С такой же лёгкостью соберёт свою жатву с вражеской армии."
+        }
+    },
+    {
+        "id": "everlasting_moonglow",
+        "rarity": 5,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Everlasting Moonglow",
+            "ru": "Вечное лунное сияние"
+        },
+        "description": {
+            "en": "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever-distant.",
+            "ru": "Яшма из морских глубин. Камень сияет прозрачным светом, подобно луне. И подобно луне, ведёт свою историю с давних времён."
+        }
+    },
+    {
+        "id": "eye_of_perception",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Eye of Perception",
+            "ru": "Око сознания"
+        },
+        "description": {
+            "en": "A dim black glaze pearl that is said to have the power to reach the purity of one's heart.",
+            "ru": "Тёмная жемчужина, покрытая чёрной глазурью. Легенда гласит, что в её силах разглядеть саму суть человека."
+        }
+    },
+    {
+        "id": "favonius_codex",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Favonius Codex",
+            "ru": "Кодекс Фавония"
+        },
+        "description": {
+            "en": "A secret tome that belonged to the scholars of the Knights of Favonius. It describes the logic and power of elements and matter.",
+            "ru": "Тайный гримуар, принадлежащий учёным Ордо Фавониус. Описывает силу и логику элементов и материи."
+        }
+    },
+    {
+        "id": "favonius_greatsword",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Favonius Greatsword",
+            "ru": "Двуручный меч Фавония"
+        },
+        "description": {
+            "en": "A heavy ceremonial sword of the Knights of Favonius. It channels elemental power easily and is highly destructive.",
+            "ru": "Тяжёлый церемониальный меч Ордо Фавониус. С лёгкостью направляет элементальную энергию и обладает высокой разрушительной силой."
+        }
+    },
+    {
+        "id": "favonius_lance",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Favonius Lance",
+            "ru": "Копьё Фавония"
+        },
+        "description": {
+            "en": "\"A polearm made in the style of the Knights of Favonius. Its shaft is straight, and its tip flows lightly like the wind.\"",
+            "ru": "Копьё, состоящее на вооружении рыцарей Ордо Фавониус. Лёгкий ветерок ласкает направленный в небеса наконечник."
+        }
+    },
+    {
+        "id": "favonius_sword",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Favonius Sword",
+            "ru": "Меч Фавония"
+        },
+        "description": {
+            "en": "A standard-issue longsword of the Knights of Favonius. When you're armed with this agile and sharp weapon, channeling the power of the elements has never been so easy!",
+            "ru": "Стандартный длинный меч на вооружении рыцарей Ордо Фавониус. Легко позволяет проводить через себя энергию стихий."
+        }
+    },
+    {
+        "id": "favonius_warbow",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Favonius Warbow",
+            "ru": "Боевой лук Фавония"
+        },
+        "description": {
+            "en": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential.",
+            "ru": "Лук, входящий в стандартную экипировку рыцарей Ордо Фавониус, но только самые опытные лучники могут использовать весь его потенциал."
+        }
+    },
+    {
+        "id": "ferrous_shadow",
+        "rarity": 3,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Ferrous Shadow",
+            "ru": "Металлическая тень"
+        },
+        "description": {
+            "en": "A replica of the famed sword of Arundolyn, the Lion of Light. Feel the power of a legendary hero as you hold this sword in your hand! Imagine yourself as the great warrior himself! Note: Daydreaming not recommended in live combat.",
+            "ru": "Копия знаменитого меча Арундолина, Льва Света. Возьмите его в руки и почувствуйте силу легендарного героя! Внимание: много мечтать вредно для вашего здоровья."
+        }
+    },
+    {
+        "id": "festering_desire",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Festering Desire",
+            "ru": "Осквернённое желание"
+        },
+        "description": {
+            "en": "A creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
+            "ru": "Зловещий меч, мечтающий о жизни. Он пропитан сильным ядом, способным осквернить даже могучего дракона."
+        }
+    },
+    {
+        "id": "fillet_blade",
+        "rarity": 3,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Fillet Blade",
+            "ru": "Филейный нож"
+        },
+        "description": {
+            "en": "A sharp filleting knife. The blade is long, thin, and incredibly sharp.",
+            "ru": "Острый филейный нож. Имеет длинное, тонкое и невероятно острое лезвие."
+        }
+    },
+    {
+        "id": "freedom_sworn",
+        "rarity": 5,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Freedom-Sworn",
+            "ru": "Клятва свободы"
+        },
+        "description": {
+            "en": "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.",
+            "ru": "Цвет этого меча напоминает о древних песнопениях, а его острота подобна словам данной в царстве ветров клятвы свободы."
+        }
+    },
+    {
+        "id": "frostbearer",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Frostbearer",
+            "ru": "Плод вечной мерзлоты"
+        },
+        "description": {
+            "en": "A fruit that possesses a strange frosty will. A faint sense of agony emanates from it.",
+            "ru": "Загадочный плод, обладающий холодным сознанием. Он источает слабый аромат горечи."
+        }
+    },
+    {
+        "id": "hakushin_ring",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Hakushin Ring",
+            "ru": "Кольцо Хакусин"
+        },
+        "description": {
+            "en": "A catalyst that carries the memory of the Kitsune Saiguu of ancient times. However, this device is but an impoverished vessel for the full breadth of her thought.",
+            "ru": "Катализатор, в котором заточены воспоминания о кицунэ Сайгу с древнейших времён. Однако этих воспоминаний так много, что вместить их все в одном сосуде не представлялось возможным."
+        }
+    },
+    {
+        "id": "halberd",
+        "rarity": 3,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Halberd",
+            "ru": "Алебарда Миллелита"
+        },
+        "description": {
+            "en": "A polearm with an axe blade mounted on top that can deal quite a lot of damage. It's favored by the Millelith officers.",
+            "ru": "Длинное древко с прикреплённым лезвием на одном конце. Любимое оружие офицеров Миллелита."
+        }
+    },
+    {
+        "id": "hamayumi",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Hamayumi",
+            "ru": "Хамаюми"
+        },
+        "description": {
+            "en": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy.",
+            "ru": "Боевой лук, когда-то принадлежал одной служительнице. Изысканный и прочный, он был изготовлен с использованием непревзойдённой техники"
+        }
+    },
+    {
+        "id": "harbinger_of_dawn",
+        "rarity": 3,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Harbinger of Dawn",
+            "ru": "Предвестник зари"
+        },
+        "description": {
+            "en": "A sword that once shone like the sun. The wielder of this sword will be blessed with a \"feel-good\" buff. The reflective material on the blade has long worn off.",
+            "ru": "Меч, некогда испускавший солнечный свет. Владелец этого меча получит благословение «Хорошего Самочувствия». Отражающая поверхность меча давно стёрлась."
+        }
+    },
+    {
+        "id": "hunters_bow",
+        "rarity": 1,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Hunter's Bow",
+            "ru": "Лук охотника"
+        },
+        "description": {
+            "en": "A hunter's music consists of but two sounds: the twang of the bowstring and the whoosh of soaring arrows.",
+            "ru": "Музыка охотника состоит всего лишь из двух нот: натягивание тетивы и свиста спущенной стрелы."
+        }
+    },
+    {
+        "id": "iron_point",
+        "rarity": 2,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Iron Point",
+            "ru": "Железный наконечник"
+        },
+        "description": {
+            "en": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers.",
+            "ru": "Прекрасно сбалансированное оружие, заострённое с одной стороны. Популярно среди путешественников."
+        }
+    },
+    {
+        "id": "iron_sting",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Iron Sting",
+            "ru": "Стальное жало"
+        },
+        "description": {
+            "en": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp.",
+            "ru": "Экзотическая рапира, каким-то образом попавшая в Ли Юэ. Скорее всего, её привёз какой-то торговец. Она лёгкая и очень острая."
+        }
+    },
+    {
+        "id": "katsuragikiri_nagamasa",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Katsuragikiri Nagamasa",
+            "ru": "Кацурагикири Нагамаса"
+        },
+        "description": {
+            "en": "A blade that was once made in Tatarasuna. Heavy and tough.",
+            "ru": "Клинок, выкованный в Татарасуне. Тяжёлый и прочный."
+        }
+    },
+    {
+        "id": "kitain_cross_spear",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Kitain Cross Spear",
+            "ru": "Крест-копьё Китаин"
+        },
+        "description": {
+            "en": "A special lance that was once used by a famed warrior who guarded the Tatarigami on Yashiori Island .",
+            "ru": "Копьё, что раньше принадлежало прославленному воину, который охранял Татаригами на острове Ясиори."
+        }
+    },
+    {
+        "id": "lions_roar",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Lion's Roar",
+            "ru": "Драконий рык"
+        },
+        "description": {
+            "en": "A sharp blade with extravagant carvings that somehow does not compromise on durability and sharpness. It roars like a lion as it cuts through the air.",
+            "ru": "Роскошная гравировка никак не повлияла на прочность и остроту этого меча. Звук от взмахов напоминает рык дракона."
+        }
+    },
+    {
+        "id": "lithic_blade",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Lithic Blade",
+            "ru": "Каменный меч"
+        },
+        "description": {
+            "en": "A greatsword carved and chiseled from the very bedrock of Liyue.",
+            "ru": "Массивный двуручный меч, вырубленный из каменного основания Ли Юэ."
+        }
+    },
+    {
+        "id": "lithic_spear",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Lithic Spear",
+            "ru": "Каменное копьё"
+        },
+        "description": {
+            "en": "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
+            "ru": "Копьё тонкой работы, выточенное из утёсов каменного леса Гуюнь. На свете нет ничего твёрже, чем его наконечник."
+        }
+    },
+    {
+        "id": "lost_prayer_to_the_sacred_winds",
+        "rarity": 5,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Lost Prayer to the Sacred Winds",
+            "ru": "Молитва святым ветрам"
+        },
+        "description": {
+            "en": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
+            "ru": "Сборник молитв, написанный коренными жителями континента, которые поклонялись ветру. В течение тысячелетий эта книга, наделённая благословением ветров, накопила необычайную магическую силу."
+        }
+    },
+    {
+        "id": "luxurious_sea_lord",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Luxurious Sea-Lord",
+            "ru": "Благодатный владыка вод"
+        },
+        "description": {
+            "en": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
+            "ru": "Великий владыка океана. После просушки становится отличным оружием или аварийным пайком."
+        }
+    },
+    {
+        "id": "magic_guide",
+        "rarity": 3,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Magic Guide",
+            "ru": "Руководство по магии"
+        },
+        "description": {
+            "en": "Version 12. A reprint featuring corrections to Version 11 and brand-new additions based on recent developments.",
+            "ru": "12-е издание. Копия 11-го издания, содержащая исправления, согласно последним разработкам."
+        }
+    },
+    {
+        "id": "mappa_mare",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Mappa Mare",
+            "ru": "Морской атлас"
+        },
+        "description": {
+            "en": "A nautical chart featuring nearby currents and climates that somehow found its way into Liyue via foreign traders.",
+            "ru": "Привезённая иностранными торговцами в Ли Юэ карта морских течений и ветров."
+        }
+    },
+    {
+        "id": "memory_of_dust",
+        "rarity": 5,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Memory of Dust",
+            "ru": "Память о пыли"
+        },
+        "description": {
+            "en": "A stone dumbbell containing distant memories. Its endless transformations reveal the power within.",
+            "ru": "Камень, содержащий далёкие воспоминания. Нескончаемые изменения обнажили его внутреннюю силу."
+        }
+    },
+    {
+        "id": "messenger",
+        "rarity": 3,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Messenger",
+            "ru": "Посыльный"
+        },
+        "description": {
+            "en": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+            "ru": "Простой деревянный лук. Говорят, что когда-то такие луки использовали для дистанционного общения."
+        }
+    },
+    {
+        "id": "mistsplitter_reforged",
+        "rarity": 5,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Mistsplitter Reforged",
+            "ru": "Рассекающий туман"
+        },
+        "description": {
+            "en": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
+            "ru": "Меч, пылающий зловещим фиолетовым светом. Однажды он уже был сломан, но затем его выковали заново."
+        }
+    },
+    {
+        "id": "mitternachts_waltz",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Mitternachts Waltz",
+            "ru": "Вальс Нирваны Ночи"
+        },
+        "description": {
+            "en": "A bow painted the color of transgression and nights of illusion.",
+            "ru": "Лук, окрашенный в цвета греха и диких ночных фантазий."
+        }
+    },
+    {
+        "id": "mouuns_moon",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Mouun's Moon",
+            "ru": "Луна Моун"
+        },
+        "description": {
+            "en": "A lovely warbow made from seashells and coral. A mournful brilliance flows along its moonlight-colored arms.",
+            "ru": "Прелестный лук, украшенный перламутром и кораллами. На его плечах цвета луны переливается печальное сияние."
+        }
+    },
+    {
+        "id": "old_mercs_pal",
+        "rarity": 2,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Old Merc's Pal",
+            "ru": "Лучший друг наёмника"
+        },
+        "description": {
+            "en": "A battle-tested greatsword that has seen better days and worse.",
+            "ru": "Этот меч, испытанный битвой, видал лучшие дни... и худшие тоже."
+        }
+    },
+    {
+        "id": "otherworldly_story",
+        "rarity": 3,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Otherworldly Story",
+            "ru": "Потусторонняя история"
+        },
+        "description": {
+            "en": "A cheap fantasy novel with no value whatsoever. Any claim that it possesses the power of catalysis is also pure fantasy.",
+            "ru": "Дешёвая фантастика. Если использовать в качестве катализатора, можно понять, что силы её - тоже фантастика."
+        }
+    },
+    {
+        "id": "pocket_grimoire",
+        "rarity": 2,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Pocket Grimoire",
+            "ru": "Карманный гримуар"
+        },
+        "description": {
+            "en": "A carefully compiled notebook featuring the essentials needed to pass a magic exam.",
+            "ru": "Тетрадь с конспектами по магическим дисциплинам, написанная аккуратным почерком."
+        }
+    },
+    {
+        "id": "polar_star",
+        "rarity": 5,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Polar Star",
+            "ru": "Полярная звезда"
+        },
+        "description": {
+            "en": "A pristine bow that is as sharp as the glaciers of the far north.",
+            "ru": "Белоснежный лук, пронзительный, как льды суровой зимы."
+        }
+    },
+    {
+        "id": "predator",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Predator",
+            "ru": "Хищник"
+        },
+        "description": {
+            "en": "A uniquely designed bow. This should not belong in this world.",
+            "ru": "Конструкция этого лука абсолютна уникальна, словно бы он не принадлежит этому миру."
+        }
+    },
+    {
+        "id": "primordial_jade_cutter",
+        "rarity": 5,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Primordial Jade Cutter",
+            "ru": "Драгоценный омут"
+        },
+        "description": {
+            "en": "A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.",
+            "ru": "Ритуальный меч, искусно вырезанный из чистейшего нефрита и покрытый изящными гравировками. Иногда кажется, что при взмахе им можно услышать тихий вздох ветра."
+        }
+    },
+    {
+        "id": "primordial_jade_winged_spear",
+        "rarity": 5,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Primordial Jade Winged-Spear",
+            "ru": "Нефритовый коршун"
+        },
+        "description": {
+            "en": "A jade polearm made by the archons, capable of slaying ancient beasts.",
+            "ru": "Это копьё создали Архонты для борьбы с чудовищами доисторических морей."
+        }
+    },
+    {
+        "id": "prototype_amber",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Prototype Amber",
+            "ru": "Прототип: Янтарь"
+        },
+        "description": {
+            "en": "A dully gilded catalyst secretly guarded in the Blackcliff Forge. It seems to glow with the very light from the sky.",
+            "ru": "Древний катализатор, обнаруженный в кузнице Черногорья. От него исходит сияние звёзд, солнца и луны."
+        }
+    },
+    {
+        "id": "prototype_archaic",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Prototype Archaic",
+            "ru": "Прототип: Архаичный"
+        },
+        "description": {
+            "en": "An ancient greatsword discovered in the Blackcliff Forge. It swings with such an immense force that one feels it could cut straight through reality itself.",
+            "ru": "Древний двуручный меч, обнаруженный в кузнице Черногорья. Он производит впечатление меча, который может разрубить пополам саму реальность."
+        }
+    },
+    {
+        "id": "prototype_crescent",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Prototype Crescent",
+            "ru": "Прототип: Полумесяц"
+        },
+        "description": {
+            "en": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
+            "ru": "Древний лук, обнаруженный в кузнице Черногорья. Выпущенная из этого лука стрела сияет, как луна после захода солнца."
+        }
+    },
+    {
+        "id": "prototype_rancour",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Prototype Rancour",
+            "ru": "Прототип: Злоба"
+        },
+        "description": {
+            "en": "An ancient longsword discovered in the Blackcliff Forge that cuts through rocks like a hot knife through butter.",
+            "ru": "Древний меч, обнаруженный в кузнице Черногорья. Режет камень словно масло."
+        }
+    },
+    {
+        "id": "prototype_starglitter",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Prototype Starglitter",
+            "ru": "Прототип: Звёздный блеск"
+        },
+        "description": {
+            "en": "A grudge discovered in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night.",
+            "ru": "Древнее копьё, обнаруженное в кузнице Черногорья. Самоцветы на лезвии этого копья сверкают, словно звёзды в ночном небе."
+        }
+    },
+    {
+        "id": "rainslasher",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Rainslasher",
+            "ru": "Дождерез"
+        },
+        "description": {
+            "en": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power.",
+            "ru": "Светящий двуручный меч с затупленным острием, который неистово крушит врагов своей массой."
+        }
+    },
+    {
+        "id": "raven_bow",
+        "rarity": 3,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Raven Bow",
+            "ru": "Лук ворона"
+        },
+        "description": {
+            "en": "Ravens are known to be the ferrymen of the dead. This bow's limb is decorated with raven feathers, which forebode the imminent death of its target.",
+            "ru": "Как известно, вороны - проводники мёртвых. Этот лук украшен их перьями, предвещающими скорую смерть любой цели."
+        }
+    },
+    {
+        "id": "recurve_bow",
+        "rarity": 3,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Recurve Bow",
+            "ru": "Изогнутый лук"
+        },
+        "description": {
+            "en": "It is said that this bow can shoot down eagles in flight, but ultimately how true that is depends on the skill of the archer.",
+            "ru": "Говорят, этот лук может сбить орла в полёте, но всё же многое зависит и от навыка самого лучника."
+        }
+    },
+    {
+        "id": "royal_bow",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Royal Bow",
+            "ru": "Королевский лук"
+        },
+        "description": {
+            "en": "An old royal longbow that belonged to the erstwhile rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+            "ru": "Древний лук правителя Мондштадта. Спустя века, тетива на нём всё ещё крепко натянута и готова пускать стрелы."
+        }
+    },
+    {
+        "id": "royal_greatsword",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Royal Greatsword",
+            "ru": "Королевский двуручный меч"
+        },
+        "description": {
+            "en": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by royals only.",
+            "ru": "Старинный меч, который носили с собой древние правители Мондштадта. Выкован из материалов высочайшего качества, которые позволили ему выстоять испытание временем. Боевой меч знати, и никого больше."
+        }
+    },
+    {
+        "id": "royal_grimoire",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Royal Grimoire",
+            "ru": "Королевский гримуар"
+        },
+        "description": {
+            "en": "A book that once belonged to a royal mage of Mondstadt. It contains faithful and comprehensive historical accounts as well as magic spells.",
+            "ru": "Книга, когда-то принадлежавшая королевскому магу Мондштадта. Содержит подробные исторические данные и заклинания."
+        }
+    },
+    {
+        "id": "royal_longsword",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Royal Longsword",
+            "ru": "Меч аристократов"
+        },
+        "description": {
+            "en": "An old longsword that belonged to the erstwhile rulers of Mondstadt. Exquisitely crafted, the carvings and embellishments testify to the stature of its owner.",
+            "ru": "Старинный меч, который носили с собой древние правители Мондштадта. Изысканно выполненная резьба и инкрустация подчёркивают высокий статус его владельца."
+        }
+    },
+    {
+        "id": "royal_spear",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "Royal Spear",
+            "ru": "Королевское копьё"
+        },
+        "description": {
+            "en": "This polearm was once cherished by a member of the old nobility that governed Mondstadt long ago. Although it has never seen the light of day, it is still incomparably sharp.",
+            "ru": "Некогда это копьё было любимым оружием одного мондштадского аристократа. Хотя оно никогда не видело белого света, это копьё и поныне остро."
+        }
+    },
+    {
+        "id": "rust",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Rust",
+            "ru": "Ржавый лук"
+        },
+        "description": {
+            "en": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
+            "ru": "Полностью проржавевший железный лук. У многих даже не получится поднять его, не говоря уж о стрельбе."
+        }
+    },
+    {
+        "id": "sacrificial_bow",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Sacrificial Bow",
+            "ru": "Церемониальный лук"
+        },
+        "description": {
+            "en": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+            "ru": "Декоративный церемониальный лук, со временем покрывшийся камнем, но украшения на нём всё ещё можно разобрать. Позволяет владельцу выстоять суровость песков времени."
+        }
+    },
+    {
+        "id": "sacrificial_fragments",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Sacrificial Fragments",
+            "ru": "Церемониальные мемуары"
+        },
+        "description": {
+            "en": "A weathered script, the text of which is no longer legible. A cursed item eroded by the winds of time.",
+            "ru": "Ветхий том, текст которого уже, увы, не прочитать. Проклятая вещь, изъеденная ветрами времени."
+        }
+    },
+    {
+        "id": "sacrificial_greatsword",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Sacrificial Greatsword",
+            "ru": "Церемониальный двуручный меч"
+        },
+        "description": {
+            "en": "A ceremonial greatsword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+            "ru": "Декоративный церемониальный двуручный меч, со временем покрывшийся камнем, но украшения на нём всё ещё можно разобрать. Позволяет владельцу выстоять суровость песков времени."
+        }
+    },
+    {
+        "id": "sacrificial_sword",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Sacrificial Sword",
+            "ru": "Церемониальный меч"
+        },
+        "description": {
+            "en": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+            "ru": "Декоративный церемониальный меч, со временем покрывшийся камнем, но украшения на нём всё ещё можно разобрать. Позволяет владельцу выстоять суровость песков времени."
+        }
+    },
+    {
+        "id": "seasoned_hunters_bow",
+        "rarity": 2,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Seasoned Hunter's Bow",
+            "ru": "Лук опытного охотника"
+        },
+        "description": {
+            "en": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm.",
+            "ru": "Ухоженный лук, полированный временем. Продолжение руки лучника."
+        }
+    },
+    {
+        "id": "serpent_spine",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Serpent Spine",
+            "ru": "Меч драконьей кости"
+        },
+        "description": {
+            "en": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
+            "ru": "Редкое оружие, произошедшее из древнего океана. Взмахните им, чтобы услышать шум вечных волн."
+        }
+    },
+    {
+        "id": "sharpshooters_oath",
+        "rarity": 3,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Sharpshooter's Oath",
+            "ru": "Клятва стрелка"
+        },
+        "description": {
+            "en": "This superior bow once belonged to a master archer. However, it gives off a strong scent, thus making it unsuitable for hunting.",
+            "ru": "Когда-то этот превосходный лук принадлежал профессиональному охотнику, однако его стойкий запах делает его непригодным для охоты."
+        }
+    },
+    {
+        "id": "silver_sword",
+        "rarity": 2,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Silver Sword",
+            "ru": "Серебряный меч"
+        },
+        "description": {
+            "en": "A sword for chasing away demons. Everyone knows it's made of a silver alloy, not pure silver.",
+            "ru": "Говорят, что этот меч может изгонять демонов, но всем известно, что он сделан не из настоящего серебра."
+        }
+    },
+    {
+        "id": "skyrider_greatsword",
+        "rarity": 3,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Skyrider Greatsword",
+            "ru": "Большой меч небесного всадника"
+        },
+        "description": {
+            "en": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword... for the second time.",
+            "ru": "Надёжный стальной меч. Однажды некто пытался заставить его летать... снова."
+        }
+    },
+    {
+        "id": "skyrider_sword",
+        "rarity": 3,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Skyrider Sword",
+            "ru": "Меч небесного всадника"
+        },
+        "description": {
+            "en": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword...",
+            "ru": "Надёжный стальной меч. Однажды некто пытался заставить его летать..."
+        }
+    },
+    {
+        "id": "skyward_atlas",
+        "rarity": 5,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Skyward Atlas",
+            "ru": "Небесный атлас"
+        },
+        "description": {
+            "en": "A cloud atlas symbolizing Dvalin and its former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
+            "ru": "Облачный атлас, символ Двалина и его повелителя, Анемо Архонта. Детально описывает облака и воздушные потоки северного региона, питающие его силой небес и ветров."
+        }
+    },
+    {
+        "id": "skyward_blade",
+        "rarity": 5,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Skyward Blade",
+            "ru": "Небесный меч"
+        },
+        "description": {
+            "en": "The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind.",
+            "ru": "Меч рыцаря, символ вернувшего свою честь Двалина. Благословения Анемо Архонта питают его силой небес и ветров."
+        }
+    },
+    {
+        "id": "skyward_harp",
+        "rarity": 5,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Skyward Harp",
+            "ru": "Небесное крыло"
+        },
+        "description": {
+            "en": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
+            "ru": "Длинный лук, символ дружбы между Двалином и Анемо Архонтом. Звук спущенной тетивы исполнен любовью Анемо Архонта, питающей его силой небес и ветров."
+        }
+    },
+    {
+        "id": "skyward_pride",
+        "rarity": 5,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Skyward Pride",
+            "ru": "Небесное величие"
+        },
+        "description": {
+            "en": "A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.",
+            "ru": "Двуручный меч, символ власти Двалина над небесами. Дыхание дракона питает его силой небес и ветров."
+        }
+    },
+    {
+        "id": "skyward_spine",
+        "rarity": 5,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Skyward Spine",
+            "ru": "Небесная ось"
+        },
+        "description": {
+            "en": "A polearm that symbolizes Dvalin's fire resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
+            "ru": "Длинное копьё, символ твёрдой воли дракона ветра. Тянущееся вверх древко указывает на небесный свод, питающий его силой небес и ветров."
+        }
+    },
+    {
+        "id": "slingshot",
+        "rarity": 3,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Slingshot",
+            "ru": "Рогатка"
+        },
+        "description": {
+            "en": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
+            "ru": "На самом деле это лук. Его создатель хотел сделать рогатку, но после кучи доработок и поправок у него получился лук."
+        }
+    },
+    {
+        "id": "snow_tombed_starsilver",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Snow-Tombed Starsilver",
+            "ru": "Заснеженное звёздное серебро"
+        },
+        "description": {
+            "en": "An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow.",
+            "ru": "Древний меч, сохранившийся среди настенных фресок. Он сделан из звёздного серебра и обладает силой, способной расколоть самый твёрдый лёд."
+        }
+    },
+    {
+        "id": "solar_pearl",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Solar Pearl",
+            "ru": "Солнечная жемчужина"
+        },
+        "description": {
+            "en": "A dull, golden pearl made of an unknown substance that harbors the light of the sun and the moon, and pulses with a warm strength.",
+            "ru": "Грубая золотая жемчужина из неизвестного материала, скрывающая в себе силу солнца и луны. Пульсирует тёплой энергией."
+        }
+    },
+    {
+        "id": "song_of_broken_pines",
+        "rarity": 5,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Song of Broken Pines",
+            "ru": "Песнь разбитых сосен"
+        },
+        "description": {
+            "en": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
+            "ru": "Двуручный меч. Лёгкий, словно ласкающий траву ветерок, но готов сокрушающим ураганом обрушиться на зло."
+        }
+    },
+    {
+        "id": "staff_of_homa",
+        "rarity": 5,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Staff of Homa",
+            "ru": "Посох Хомы"
+        },
+        "description": {
+            "en": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
+            "ru": "Алый посох, использовавшийся в давно утраченном древнем ритуале."
+        }
+    },
+    {
+        "id": "summit_shaper",
+        "rarity": 5,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "Summit Shaper",
+            "ru": "Кромсатель пиков"
+        },
+        "description": {
+            "en": "A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain.",
+            "ru": "Говорят, этот клинок - символ легендарного контракта. Когда-то его острым лезвием была срезана вершина горы."
+        }
+    },
+    {
+        "id": "sword_of_descension",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Sword of Descension",
+            "ru": "Меч нисхождения"
+        },
+        "description": {
+            "en": "A sword of unique craftsmanship. It does not appear to belong to this world.",
+            "ru": "Меч уникальной формы. Кажется, что он не принадлежит этому миру."
+        }
+    },
+    {
+        "id": "the_alley_flash",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "The Alley Flash",
+            "ru": "Вспышка во тьме"
+        },
+        "description": {
+            "en": "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
+            "ru": "Чёрный как ночь клинок. Его хозяином был грабитель, который орудовал в тёмных переулках."
+        }
+    },
+    {
+        "id": "the_bell",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "The Bell",
+            "ru": "Меч-колокол"
+        },
+        "description": {
+            "en": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
+            "ru": "Тяжёлый двуручный меч со встроенными часами механизмы которых уже давно изношены."
+        }
+    },
+    {
+        "id": "the_black_sword",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "The Black Sword",
+            "ru": "Чёрный меч"
+        },
+        "description": {
+            "en": "A pitch-black longsword that thirsts for violence and conflict. It is said that this weapon can cause its user to become drunk on the red wine of slaughter.",
+            "ru": "Этот чёрный как смоль меч жаждет кровопролития. Говорят, что в пылу резни его владелец пьянеет, словно от вина."
+        }
+    },
+    {
+        "id": "the_catch",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "\"The Catch\"",
+            "ru": "«Улов»"
+        },
+        "description": {
+            "en": "In the distant past, this was the beloved spear of a famed Inazuman bandit.",
+            "ru": "В далёком прошлом это копьё принадлежало знаменитому инадзумскому разбойнику."
+        }
+    },
+    {
+        "id": "the_flute",
+        "rarity": 4,
+        "type": "sword",
+        "gacha": true,
+        "name": {
+            "en": "The Flute",
+            "ru": "Меч-флейта"
+        },
+        "description": {
+            "en": "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind.",
+            "ru": "Под всей ржавчиной скрывается роскошно украшенный меч. Режет плоть так же легко, как воздух."
+        }
+    },
+    {
+        "id": "the_stringless",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "The Stringless",
+            "ru": "Бесструнный"
+        },
+        "description": {
+            "en": "A bow that once served as an extraordinary instrument. It is no longer capable of getting people up and dancing.",
+            "ru": "Когда-то этот лук был восхитительным музыкальным инструментом, но больше под его музыку никто не запляшет."
+        }
+    },
+    {
+        "id": "the_unforged",
+        "rarity": 5,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "The Unforged",
+            "ru": "Некованый"
+        },
+        "description": {
+            "en": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
+            "ru": "Двуручный меч без острия, способный изгонять нечистую силу и карать предателей. Он будто наделён божественной силой."
+        }
+    },
+    {
+        "id": "the_viridescent_hunt",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "The Viridescent Hunt",
+            "ru": "Зелёный лук"
+        },
+        "description": {
+            "en": "A pure green hunting bow. This once belonged to a certain hunter whose home was the forest.",
+            "ru": "Лук чистого тёмно-зеленого цвета. Он принадлежал охотнику, который жил в лесу."
+        }
+    },
+    {
+        "id": "the_widsith",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "The Widsith",
+            "ru": "Песнь странника"
+        },
+        "description": {
+            "en": "A heavy notebook filled with musical scores. Though suffering from moth damage and heavy wear-and-tear, there is still much power to be found among the hand-written words within.",
+            "ru": "Эта тяжёлая книга содержит огромное количество песен. Рукописный текст внушает уважение, хоть книга и была поедена молью."
+        }
+    },
+    {
+        "id": "thrilling_tales_of_dragon_slayers",
+        "rarity": 3,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Thrilling Tales of Dragon Slayers",
+            "ru": "Эпос о драконоборцах"
+        },
+        "description": {
+            "en": "A fictional story of a band of five heroes who go off on a dragon hunt. It is poorly written and structurally incoherent. Its value lies in the many lessons that can be learned from failure.",
+            "ru": "Художественная история о пяти героях, собравшихся охотиться на дракона. Написано очень плохо, без какой-либо структуры. Суть книги в том, чтобы научить людей, как важно избегать ошибок."
+        }
+    },
+    {
+        "id": "thundering_pulse",
+        "rarity": 5,
+        "type": "bow",
+        "gacha": true,
+        "name": {
+            "en": "Thundering Pulse",
+            "ru": "Громовой пульс"
+        },
+        "description": {
+            "en": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+            "ru": "Лук, дарованный сёгуном. Его окружают непрестанно потрескивающие молнии."
+        }
+    },
+    {
+        "id": "travelers_handy_sword",
+        "rarity": 3,
+        "type": "sword",
+        "gacha": false,
+        "name": {
+            "en": "Traveler's Handy Sword",
+            "ru": "Меч путешественника"
+        },
+        "description": {
+            "en": "A handy steel sword which contains scissors, a magnifying glass, tinder, and other useful items in its sheath.",
+            "ru": "Удобный стальной меч, в ножнах которого также можно найти ножницы, лупу, трутницу и много чего ещё."
+        }
+    },
+    {
+        "id": "twin_nephrite",
+        "rarity": 3,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Twin Nephrite",
+            "ru": "Парный нефрит"
+        },
+        "description": {
+            "en": "A jade pendant formed by piecing together two jade stones.",
+            "ru": "Ожерелье с замочком из двух кусочков нефрита."
+        }
+    },
+    {
+        "id": "vortex_vanquisher",
+        "rarity": 5,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Vortex Vanquisher",
+            "ru": "Покоритель вихря"
+        },
+        "description": {
+            "en": "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.",
+            "ru": "Острое копьё, которое, похоже, может пронзить что угодно. При взмахе можно увидеть, будто в месте, где наконечник касается воздуха, появляется брешь."
+        }
+    },
+    {
+        "id": "waster_greatsword",
+        "rarity": 1,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Waster Greatsword",
+            "ru": "Двуручный меч богатыря"
+        },
+        "description": {
+            "en": "A sturdy sheet of iron that may be powerful enough to break apart mountains, if wielded with enough willpower.",
+            "ru": "Человек, обладающий достаточной силой воли, сможет расколоть горы этим куском металла, отдалённо напоминающим меч."
+        }
+    },
+    {
+        "id": "wavebreakers_fin",
+        "rarity": 4,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Wavebreaker's Fin",
+            "ru": "Режущий волны плавник"
+        },
+        "description": {
+            "en": "A naginata forged from luminscent material deep in the ocean depths. It was once the possession of the tengu race.",
+            "ru": "Нагината из сверкающего материала с морского дна. Когда-то принадлежала народу тэнгу."
+        }
+    },
+    {
+        "id": "white_iron_greatsword",
+        "rarity": 3,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "White Iron Greatsword",
+            "ru": "Меч из белого железа"
+        },
+        "description": {
+            "en": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
+            "ru": "Двуручный меч, выкованный из белого железа. Такой материал делает его одновременно сильным и лёгким. Подходит даже для человека среднего телосложения, однако его мощь всё же растёт с силой владельца."
+        }
+    },
+    {
+        "id": "white_tassel",
+        "rarity": 3,
+        "type": "polearm",
+        "gacha": false,
+        "name": {
+            "en": "White Tassel",
+            "ru": "Белая кисть"
+        },
+        "description": {
+            "en": "A standard-issue weapon of the Millelith soldiers. It has a sturdy shaft and sharp spearhead. It's a reliable weapon.",
+            "ru": "Стандартное вооружение Миллелитов. Имеет крепкое древко и острый наконечник."
+        }
+    },
+    {
+        "id": "whiteblind",
+        "rarity": 4,
+        "type": "claymore",
+        "gacha": false,
+        "name": {
+            "en": "Whiteblind",
+            "ru": "Белая тень"
+        },
+        "description": {
+            "en": "An exotic sword with one section of the blade left blunt. It made its way into Liyue via the hands of foreign traders. Incredibly powerful in the hands of someone who knows how to use it.",
+            "ru": "Экзотичный меч с тупой секцией на лезвии, который оказался в Ли Юэ благодаря иностранным торговцам. Невероятно мощный в руках того, кто знает, как им пользоваться."
+        }
+    },
+    {
+        "id": "windblume_ode",
+        "rarity": 4,
+        "type": "bow",
+        "gacha": false,
+        "name": {
+            "en": "Windblume Ode",
+            "ru": "Ода анемонии"
+        },
+        "description": {
+            "en": "A bow adorned with nameless flowers that bears the earnest hopes of an equally nameless person.",
+            "ru": "Украшенный безымянными цветами лук несёт заветные желания такого же безымянного человека."
+        }
+    },
+    {
+        "id": "wine_and_song",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Wine and Song",
+            "ru": "Вино и песни"
+        },
+        "description": {
+            "en": "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw.",
+            "ru": "Сборник песен давно минувшей эпохи аристократии. В нём автор, чьё имя кануло в лету, ведёт сказ об одном благородном разбойнике."
+        }
+    },
+    {
+        "id": "wolfs_gravestone",
+        "rarity": 5,
+        "type": "claymore",
+        "gacha": true,
+        "name": {
+            "en": "Wolf's Gravestone",
+            "ru": "Волчья погибель"
+        },
+        "description": {
+            "en": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.",
+            "ru": "Двуручный меч рыцаря Ордо Бореалис. Изначально это был просто лист металла из лавки кузнеца. Однако, он был наделён легендарной силой в знак дружбы между кузнецом и волками."
+        }
+    }
+]

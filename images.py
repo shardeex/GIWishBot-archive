@@ -1,9 +1,10 @@
 import os
 import textwrap
-import utils
-from PIL import Image, ImageCms, ImageDraw, ImageEnhance, ImageFont
 
 import github
+from PIL import Image, ImageCms, ImageDraw, ImageEnhance, ImageFont
+
+import utils
 
 
 class Images():
@@ -23,12 +24,12 @@ class Images():
 
     def __init__(self):
         self.repository = github.Github(utils.GITHUB_TOKEN).get_user().get_repo(utils.REPOSITORY_NAME)
-        self.assets_dirs = {
-            'weapon': list(w[:-4] for w in os.listdir(f'assets/weapons')),
-            'character': list(c[:-4] for c in os.listdir(f'assets/characters'))}
-    
-    def _get(self, item, lang):
-        return f'https://raw.githubusercontent.com/shardeex/{utils.REPOSITORY_NAME}/main/assets/gacha/{lang}/{item.id}.png'
+
+        self.assets = \
+            list(w[:-4] for w in os.listdir(f'assets/characters')) + \
+            list(w[:-4] for w in os.listdir(f'assets/weapons'))
+
+        print(f'Found {len(self.assets)}/{len(utils.characters+utils.weapons)} assets.')
 
     def _create(self, item, lang) -> None:
         """
@@ -39,27 +40,27 @@ class Images():
         draw = ImageDraw.Draw(image)
         font = ImageFont.truetype('assets/font.ttf', 32)
 
-        item.box = self.image_boxes[item.group]
+        item.box = self.image_boxes[item.__class__.__name__.lower()]
         item.size = item.box[2] - item.box[0], item.box[3] - item.box[1]
 
         assets = []
         
-        if item.group == 'weapon':
+        if item.__class__ == utils.Weapon:
             assets.append((
                 Image.open(f'assets/weapon_bg/{item.type}.png').resize((589, 589)),
                 self.image_boxes['weapon_bg']))
             assets.append((ImageEnhance.Brightness(
-                Image.open(f'assets/{item.group}s/{item.id}.png').resize(item.size)).enhance(0.1),
+                Image.open(f'assets/weapons/{item.id}.png').resize(item.size)).enhance(0.1),
                 self.image_boxes['weapon_shadow']))
             assets.append((
-                Image.open(f'assets/{item.group}s/{item.id}.png').resize(item.size),
+                Image.open(f'assets/weapons/{item.id}.png').resize(item.size),
                 self.image_boxes['weapon']))
             assets.append((
-                Image.open(f'assets/{item.group}_icon/{item.type}.png'),
+                Image.open(f'assets/weapon_icon/{item.type}.png'),
                 self.image_boxes['icon']))
-        elif item.group == 'character':
+        elif item.__class__ == utils.Character:
             assets.append((
-                Image.open(f'assets/{item.group}s/{item.id}.png').resize(item.size),
+                Image.open(f'assets/characters/{item.id}.png').resize(item.size),
                 self.image_boxes['character']))
             assets.append((
                 Image.open(f'assets/element_icon/{item.element}.png'),
@@ -68,7 +69,7 @@ class Images():
             raise ValueError(item)
         
         # calculate name length (rows)
-        name_strings = textwrap.wrap(item.name[lang], width=15)
+        name_strings = textwrap.wrap(getattr(item.name, lang), width=15)
 
         # rarity stars
         for i in range(item.rarity):
@@ -96,17 +97,19 @@ class Images():
         image.save(path, icc_profile=profile.tobytes())
         return path
     
-    def update_images(self, data):
+    def update(self):
         for lang in utils.LANGUAGE_CODES:
             github_gacha_dir = list([x.name[:-4] for x in self.repository.get_contents(f'assets/gacha/{lang}')])
-            for item_id, item in data.items():
+            github_gacha_dir.remove('README.md'[:-4])
+            for item in utils.characters+utils.weapons:
                 if not item.id in github_gacha_dir:
-                    if not item.id in self.assets_dirs[item.group]:
-                        print(f'{item_id} not found in {self.assets_dirs[item.group]}')
+                    if not item.id in self.assets:
+                        print(f'{item.id} not found in assets.')
                     else:
                         image_path = self._create(item, lang)
                         self.repository.create_file(image_path,
-                            f'[BOT] create {item.name["en"]} picture for {lang}',
+                            f'[BOT] create {item.name.en} picture for {lang}',
                             open(image_path, 'rb').read())
-                item.image[lang] = self._get(item, lang)
-        return data
+            github_gacha_dir = list([x.name[:-4] for x in self.repository.get_contents(f'assets/gacha/{lang}')])
+            github_gacha_dir.remove('README.md'[:-4])
+            print(f'Total {len(github_gacha_dir)} gacha images for {lang} lang.')

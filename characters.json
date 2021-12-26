@@ -1,0 +1,647 @@
+[
+    {
+        "id": "albedo",
+        "rarity": 5,
+        "weapon": "sword",
+        "element": "geo",
+        "gacha": true,
+        "name": {
+            "en": "Albedo",
+            "ru": "Альбедо"
+        },
+        "description": {
+            "en": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+            "ru": "Гений, именуемый Принцем мела. Главный алхимик и глава исследовательской команды Ордо Фавониус."
+        }
+    },
+    {
+        "id": "aloy",
+        "rarity": 5,
+        "weapon": "bow",
+        "element": "cryo",
+        "gacha": false,
+        "name": {
+            "en": "Aloy",
+            "ru": "Элой"
+        },
+        "description": {
+            "en": "An agile hunter from the Nora tribe. With bow in hand, she's always ready to protect the innocent.",
+            "ru": "В прошлом изгой, а теперь охотник с непревзойденным чутьём. Её лук всегда наготове ради правого дела."
+        }
+    },
+    {
+        "id": "amber",
+        "rarity": 4,
+        "weapon": "bow",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Amber",
+            "ru": "Эмбер"
+        },
+        "description": {
+            "en": "Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.",
+            "ru": "Энергичная и весёлая Эмбер. Лучший и единственный скаут Ордо Фавониус."
+        }
+    },
+    {
+        "id": "arataki_itto",
+        "rarity": 5,
+        "weapon": "claymore",
+        "element": "geo",
+        "gacha": true,
+        "name": {
+            "en": "Arataki Itto",
+            "ru": "Аратаки Итто"
+        },
+        "description": {
+            "en": "The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?",
+            "ru": "Первый и величайший предводитель банды Аратаки, прославленной по всей Ханамидзаке города Инадзумы. Что, вы никогда о ней не слышали? Нарываетесь?"
+        }
+    },
+    {
+        "id": "barbara",
+        "rarity": 4,
+        "weapon": "catalyst",
+        "element": "hydro",
+        "gacha": true,
+        "name": {
+            "en": "Barbara",
+            "ru": "Барбара"
+        },
+        "description": {
+            "en": "Every citizen of Mondstadt adores Barbara. However, she learned the word \"idol\" from a magazine.",
+            "ru": "Все жители Мондштадта боготворят Барбару, но слово «идол» она узнала из модного журнала."
+        }
+    },
+    {
+        "id": "beidou",
+        "rarity": 4,
+        "weapon": "claymore",
+        "element": "electro",
+        "gacha": true,
+        "name": {
+            "en": "Beidou",
+            "ru": "Бэй Доу"
+        },
+        "description": {
+            "en": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
+            "ru": "Капитан флота Южного Креста. Она весьма рисковая и прямолинейная леди."
+        }
+    },
+    {
+        "id": "bennett",
+        "rarity": 4,
+        "weapon": "sword",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Bennett",
+            "ru": "Беннет"
+        },
+        "description": {
+            "en": "A righteous and good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+            "ru": "Добросердечный и порядочный искатель приключений из Мондштадта, который, к несчастью, сказочно невезуч."
+        }
+    },
+    {
+        "id": "chongyun",
+        "rarity": 4,
+        "weapon": "claymore",
+        "element": "cryo",
+        "gacha": true,
+        "name": {
+            "en": "Chongyun",
+            "ru": "Чун Юнь"
+        },
+        "description": {
+            "en": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+            "ru": "Молодой экзорцист из семьи экзорцистов. Изо всех сил старается подавить свою энергию Ян."
+        }
+    },
+    {
+        "id": "diluc",
+        "rarity": 5,
+        "weapon": "claymore",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Diluc",
+            "ru": "Дилюк"
+        },
+        "description": {
+            "en": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+            "ru": "Магнат, построивший непревзойдённую винную империю в Мондштадте."
+        }
+    },
+    {
+        "id": "diona",
+        "rarity": 4,
+        "weapon": "bow",
+        "element": "cryo",
+        "gacha": true,
+        "name": {
+            "en": "Diona",
+            "ru": "Диона"
+        },
+        "description": {
+            "en": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
+            "ru": "Молодая девушка, унаследовавшая остаточную долю нечеловеческой крови. Она невероятно популярный бармен таверны «Кошкин хвост»."
+        }
+    },
+    {
+        "id": "eula",
+        "rarity": 5,
+        "weapon": "claymore",
+        "element": "cryo",
+        "gacha": true,
+        "name": {
+            "en": "Eula",
+            "ru": "Эола"
+        },
+        "description": {
+            "en": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+            "ru": "Рыцарь Морская пена из старинного рода аристократов Мондштадта, капитан разведывательного отряда рыцарей Ордо Фавониус. Будучи потомком древней аристократии, она присоединилась к рыцарям Ордо Фавониус, их заклятым врагам. Причины этого поступка и по сей день остаются загадкой для всего Мондштадта."
+        }
+    },
+    {
+        "id": "fischl",
+        "rarity": 4,
+        "weapon": "bow",
+        "element": "electro",
+        "gacha": true,
+        "name": {
+            "en": "Fischl",
+            "ru": "Фишль"
+        },
+        "description": {
+            "en": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+            "ru": "Таинственная девушка, называющая себя «Принцессой осуждения» и путешествующая в сопровождении ворона по имени Оз."
+        }
+    },
+    {
+        "id": "ganyu",
+        "rarity": 5,
+        "weapon": "bow",
+        "element": "cryo",
+        "gacha": true,
+        "name": {
+            "en": "Ganyu",
+            "ru": "Гань Юй"
+        },
+        "description": {
+            "en": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+            "ru": "Главный секретарь павильона Лунного моря. В её жилах течёт кровь мифического зверя цилиня."
+        }
+    },
+    {
+        "id": "gorou",
+        "rarity": 4,
+        "weapon": "bow",
+        "element": "geo",
+        "gacha": true,
+        "name": {
+            "en": "Gorou",
+            "ru": "Горо"
+        },
+        "description": {
+            "en": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+            "ru": "Великий генерал армии Ватацуми. Пользуется безграничным доверием своих подчинённых."
+        }
+    },
+    {
+        "id": "hu_tao",
+        "rarity": 5,
+        "weapon": "polearm",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Hu Tao",
+            "ru": "Ху Тао"
+        },
+        "description": {
+            "en": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+            "ru": "Хозяйка ритуального бюро «Ваншэн» в семьдесят седьмом поколении. Она унаследовала этот бизнес в достаточно юном возрасте."
+        }
+    },
+    {
+        "id": "jean",
+        "rarity": 5,
+        "weapon": "sword",
+        "element": "anemo",
+        "gacha": true,
+        "name": {
+            "en": "Jean",
+            "ru": "Джинн"
+        },
+        "description": {
+            "en": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius.",
+            "ru": "Справедливый и искренний Рыцарь Одуванчик, действующий магистр Ордо Фавониус."
+        }
+    },
+    {
+        "id": "kaeya",
+        "rarity": 4,
+        "weapon": "sword",
+        "element": "cryo",
+        "gacha": true,
+        "name": {
+            "en": "Kaeya",
+            "ru": "Кэйа"
+        },
+        "description": {
+            "en": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+            "ru": "Капитан Ордо Фавониус выглядит довольно экзотично. Несмотря на дружелюбие и приветливость, от него веет странным холодком."
+        }
+    },
+    {
+        "id": "kaedehara_kazuha",
+        "rarity": 5,
+        "weapon": "sword",
+        "element": "anemo",
+        "gacha": true,
+        "name": {
+            "en": "Kaedehara Kazuha",
+            "ru": "Каэдэхара Кадзуха"
+        },
+        "description": {
+            "en": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.",
+            "ru": "Ронин-самурай из Инадзумы, который нашёл приют на флоте Южного креста в Ли Юэ. Этот добрый и беззаботный молодой человек многое пережил в прошлом."
+        }
+    },
+    {
+        "id": "kamisato_ayaka",
+        "rarity": 5,
+        "weapon": "sword",
+        "element": "cryo",
+        "gacha": true,
+        "name": {
+            "en": "Kamisato Ayaka",
+            "ru": "Камисато Аяка"
+        },
+        "description": {
+            "en": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
+            "ru": "Наследница клана Камисато комиссии Ясиро. Благородна и изящна, мудра и сильна."
+        }
+    },
+    {
+        "id": "keqing",
+        "rarity": 5,
+        "weapon": "sword",
+        "element": "electro",
+        "gacha": true,
+        "name": {
+            "en": "Keqing",
+            "ru": "Кэ Цин"
+        },
+        "description": {
+            "en": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
+            "ru": "Нефритовое Равновесие Группировки Цисин в Ли Юэ. У неё есть что сказать против «Властелина Камня, правящего Ли Юэ лишь словом», но, оказывается, боги любят таких скептиков, как она."
+        }
+    },
+    {
+        "id": "klee",
+        "rarity": 5,
+        "weapon": "catalyst",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Klee",
+            "ru": "Кли"
+        },
+        "description": {
+            "en": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+            "ru": "Эксперт по взрывчатке и частый гость темницы Ордо Фавониус. Также известна, как «Ускользающее солнце»."
+        }
+    },
+    {
+        "id": "kujou_sara",
+        "rarity": 4,
+        "weapon": "bow",
+        "element": "electro",
+        "gacha": true,
+        "name": {
+            "en": "Kujou Sara",
+            "ru": "Кудзё Сара"
+        },
+        "description": {
+            "en": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+            "ru": "Действующий генерал комиссии Тэнрё. Решительный убийца и храбрый воин."
+        }
+    },
+    {
+        "id": "lisa",
+        "rarity": 4,
+        "weapon": "catalyst",
+        "element": "electro",
+        "gacha": true,
+        "name": {
+            "en": "Lisa",
+            "ru": "Лиза"
+        },
+        "description": {
+            "en": "The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
+            "ru": "Ленивый, но безгранично эрудированный библиотекарь Ордо Фавониус. Лучшая выпускница академии Сумеру за последние несколько веков."
+        }
+    },
+    {
+        "id": "mona",
+        "rarity": 5,
+        "weapon": "catalyst",
+        "element": "hydro",
+        "gacha": true,
+        "name": {
+            "en": "Mona",
+            "ru": "Мона"
+        },
+        "description": {
+            "en": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+            "ru": "Таинственный молодой астролог, которая представляется как «великий астролог Мона Мегистус» и на самом деле достойна этого звания. Эрудирована и горделива."
+        }
+    },
+    {
+        "id": "ningguang",
+        "rarity": 4,
+        "weapon": "catalyst",
+        "element": "geo",
+        "gacha": true,
+        "name": {
+            "en": "Ningguang",
+            "ru": "Нин Гуан"
+        },
+        "description": {
+            "en": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+            "ru": "Воля Небес группировки Цисин. Её богатство несравнимо ни с кем на континенте Тейвата."
+        }
+    },
+    {
+        "id": "noelle",
+        "rarity": 4,
+        "weapon": "claymore",
+        "element": "geo",
+        "gacha": true,
+        "name": {
+            "en": "Noelle",
+            "ru": "Ноэлль"
+        },
+        "description": {
+            "en": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+            "ru": "Горничная Ордо Фавониус, которая страстно мечтает однажды пополнить ряды ордена."
+        }
+    },
+    {
+        "id": "qiqi",
+        "rarity": 5,
+        "weapon": "sword",
+        "element": "cryo",
+        "gacha": true,
+        "name": {
+            "en": "Qiqi",
+            "ru": "Ци Ци"
+        },
+        "description": {
+            "en": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+            "ru": "Ученица и сборщица трав из хижины Бубу. Зомби с бледным лицом, разговаривает или проявляет эмоции очень редко..."
+        }
+    },
+    {
+        "id": "raiden_shogun",
+        "rarity": 5,
+        "weapon": "polearm",
+        "element": "electro",
+        "gacha": true,
+        "name": {
+            "en": "Raiden Shogun",
+            "ru": "Сёгун Райдэн"
+        },
+        "description": {
+            "en": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
+            "ru": "Её Превосходительство Наруками Огосё, пообещавшая неизменную вечность для жителей Инадзумы."
+        }
+    },
+    {
+        "id": "razor",
+        "rarity": 4,
+        "weapon": "claymore",
+        "element": "electro",
+        "gacha": true,
+        "name": {
+            "en": "Razor",
+            "ru": "Рэйзор"
+        },
+        "description": {
+            "en": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+            "ru": "Мальчик, живущий среди волков в Вольфендоме у Мондштадта, вдали от цивилизации. Ловок как молния."
+        }
+    },
+    {
+        "id": "rosaria",
+        "rarity": 4,
+        "weapon": "polearm",
+        "element": "cryo",
+        "gacha": true,
+        "name": {
+            "en": "Rosaria",
+            "ru": "Розария"
+        },
+        "description": {
+            "en": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+            "ru": "Кроме её одеяния ничто не напоминает о её принадлежности церкви. Известна своими холодными речами и резкими поступками. Всегда действует одна."
+        }
+    },
+    {
+        "id": "sangonomiya_kokomi",
+        "rarity": 5,
+        "weapon": "catalyst",
+        "element": "hydro",
+        "gacha": true,
+        "name": {
+            "en": "Sangonomiya Kokomi",
+            "ru": "Сангономия Кокоми"
+        },
+        "description": {
+            "en": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+            "ru": "Божественная Жрица острова Ватацуми. Все дела острова находятся в руках этой молодой леди."
+        }
+    },
+    {
+        "id": "sayu",
+        "rarity": 4,
+        "weapon": "claymore",
+        "element": "anemo",
+        "gacha": true,
+        "name": {
+            "en": "Sayu",
+            "ru": "Саю"
+        },
+        "description": {
+            "en": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+            "ru": "Вечно сонный миниатюрный ниндзя из тайной организации Сюмацубан."
+        }
+    },
+    {
+        "id": "sucrose",
+        "rarity": 4,
+        "weapon": "catalyst",
+        "element": "anemo",
+        "gacha": true,
+        "name": {
+            "en": "Sucrose",
+            "ru": "Сахароза"
+        },
+        "description": {
+            "en": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+            "ru": "Алхимик, преисполненная любопытством по отношению ко всему на свете. Она занимается исследованием биоалхимии."
+        }
+    },
+    {
+        "id": "tartaglia",
+        "rarity": 5,
+        "weapon": "bow",
+        "element": "hydro",
+        "gacha": true,
+        "name": {
+            "en": "Tartaglia",
+            "ru": "Тарталья"
+        },
+        "description": {
+            "en": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+            "ru": "Номер одиннадцать из Предвестников Фатуи, искусный воин, также известный под именем Чайльд."
+        }
+    },
+    {
+        "id": "thoma",
+        "rarity": 4,
+        "weapon": "polearm",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Thoma",
+            "ru": "Тома"
+        },
+        "description": {
+            "en": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma.",
+            "ru": "Управляющий клана Камисато. Известный в Инадзуме «местный авторитет»."
+        }
+    },
+    {
+        "id": "venti",
+        "rarity": 5,
+        "weapon": "bow",
+        "element": "anemo",
+        "gacha": true,
+        "name": {
+            "en": "Venti",
+            "ru": "Венти"
+        },
+        "description": {
+            "en": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+            "ru": "Обычный бард, слоняющийся по улочкам Мондштадта."
+        }
+    },
+    {
+        "id": "xiangling",
+        "rarity": 4,
+        "weapon": "polearm",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Xiangling",
+            "ru": "Сян Лин"
+        },
+        "description": {
+            "en": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+            "ru": "Знаменитый шеф-повар Ли Юэ. Она со всей страстью относится к приготовлению еды, а её острые блюда известны на весь Тейват."
+        }
+    },
+    {
+        "id": "xiao",
+        "rarity": 5,
+        "weapon": "polearm",
+        "element": "anemo",
+        "gacha": true,
+        "name": {
+            "en": "Xiao",
+            "ru": "Сяо"
+        },
+        "description": {
+            "en": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
+            "ru": "Бессмертный дух Якса, охраняющий гавань Ли Юэ. Также зовётся Охотником на демонов или Защитником Якса."
+        }
+    },
+    {
+        "id": "xingqiu",
+        "rarity": 4,
+        "weapon": "sword",
+        "element": "hydro",
+        "gacha": true,
+        "name": {
+            "en": "Xingqiu",
+            "ru": "Син Цю"
+        },
+        "description": {
+            "en": "A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
+            "ru": "Молодой любитель книг с благородным сердцем и длинным мечом."
+        }
+    },
+    {
+        "id": "xinyan",
+        "rarity": 4,
+        "weapon": "claymore",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Xinyan",
+            "ru": "Синь Янь"
+        },
+        "description": {
+            "en": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
+            "ru": "Единственный рок-музыкант Ли Юэ. Своей вдохновляющей музыкой и пением она выражает протест предубеждениям."
+        }
+    },
+    {
+        "id": "yanfei",
+        "rarity": 4,
+        "weapon": "catalyst",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Yanfei",
+            "ru": "Янь Фэй"
+        },
+        "description": {
+            "en": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+            "ru": "Известный консультант по юридическим вопросам Ли Юэ. Проницательная девушка, в чьих жилах течёт кровь Божественного зверя."
+        }
+    },
+    {
+        "id": "yoimiya",
+        "rarity": 5,
+        "weapon": "bow",
+        "element": "pyro",
+        "gacha": true,
+        "name": {
+            "en": "Yoimiya",
+            "ru": "Ёимия"
+        },
+        "description": {
+            "en": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+            "ru": "Владелица «Фейерверков Наганохары», также известна как «Королева праздника лета». Будучи мастером своего дела, она воплощает надежды и мечты людей в своих фейерверках."
+        }
+    },
+    {
+        "id": "zhongli",
+        "rarity": 5,
+        "weapon": "polearm",
+        "element": "geo",
+        "gacha": true,
+        "name": {
+            "en": "Zhongli",
+            "ru": "Чжун Ли"
+        },
+        "description": {
+            "en": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+            "ru": "Приглашённый специалист ритуального бюро «Ваншэн». Необычайно загадочен и сведущ во всех делах."
+        }
+    }
+]
