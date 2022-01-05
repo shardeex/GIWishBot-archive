@@ -21,6 +21,7 @@ class Weapon(SimpleNamespace): pass
 with open('weapons.json', mode='r', encoding='utf-8') as _w:
     weapons = json.load(_w, object_hook=lambda x: Weapon(**x))
 
+# dict with items
 items_by_id = dict((item.id, item) for item in characters+weapons)
 
 # gacha items sorted by type and rarity
@@ -51,8 +52,9 @@ drop_tables = {
 # e.g. datetime.time(5) means 5:00AM, datetime.time(18) means 6:00AM.
 wish_times = (datetime.time(9), datetime.time(21))
 
-starglitter = lambda x: f'❂{x}'
+# adds stardust & starglitter symbols
 stardust = lambda x: f'✧{x}'
+starglitter = lambda x: f'❂{x}'
 
 def format_ru_word(number: int, word: list) -> str:
     """

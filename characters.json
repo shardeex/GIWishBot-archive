@@ -480,6 +480,21 @@
         }
     },
     {
+        "id": "shenhe",
+        "rarity": 5,
+        "weapon": "polearm",
+        "element": "cryo",
+        "gacha": true,
+        "name": {
+            "en": "Shenhe",
+            "ru": "Шэнь Хэ"
+        },
+        "description": {
+            "en": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+            "ru": "Ученица Адептов, утратившая связь с внешним миром. Годы затворнической жизни в горах Ли Юэ сделали её такой же отстранённой и холодной, как сами Адепты."
+        }
+    },
+    {
         "id": "sucrose",
         "rarity": 4,
         "weapon": "catalyst",
@@ -627,6 +642,21 @@
         "description": {
             "en": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
             "ru": "Владелица «Фейерверков Наганохары», также известна как «Королева праздника лета». Будучи мастером своего дела, она воплощает надежды и мечты людей в своих фейерверках."
+        }
+    },
+    {
+        "id": "yun_jin",
+        "rarity": 4,
+        "weapon": "polearm",
+        "element": "geo",
+        "gacha": true,
+        "name": {
+            "en": "Yun Jin",
+            "ru": "Юнь Цзинь"
+        },
+        "description": {
+            "en": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
+            "ru": "Прославленная оперная певица Ли Юэ, которая искусна как в написании пьес, так и в пении. Её неповторимый стиль, изысканный и нежный, - это отражение глубин её души."
         }
     },
     {

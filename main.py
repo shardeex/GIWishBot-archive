@@ -30,7 +30,7 @@ async def wish(message: aiogram.types.message.Message):
     await user.save_to_database()
 
 @router.message(aiogram.filters.Command(commands=['inv']))
-async def inventory(message: aiogram.types.message.Message):
+async def inv(message: aiogram.types.message.Message):
     user = User(message.from_user)
     await user.load_from_database()
     await message.answer(user.inv(message.chat.type))

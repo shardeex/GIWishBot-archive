@@ -196,6 +196,20 @@
         }
     },
     {
+        "id": "calamity_queller",
+        "rarity": 5,
+        "type": "polearm",
+        "gacha": true,
+        "name": {
+            "en": "Calamity Queller",
+            "ru": "Усмиритель бед"
+        },
+        "description": {
+            "en": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
+            "ru": "Отточенное оружие, выкованное из странного кристалла. Его слабый голубой свет, кажется, шепчет о бесчисленных событиях прошлого."
+        }
+    },
+    {
         "id": "cinnabar_spindle",
         "rarity": 4,
         "type": "sword",

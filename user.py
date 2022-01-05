@@ -47,7 +47,7 @@ class User():
 
     async def load_from_database(self):
         """
-        Loads user's data from database.
+        load_from_database: loads user's data from database.
         """
         if not (result := await database.fetch_one(users.select().where(users.c.id == self.id))):
             # create user
@@ -59,7 +59,7 @@ class User():
     
     async def save_to_database(self):
         """
-        Saves user data to database.
+        save_to_database: saves user data to database.
         """
         data = {k: getattr(self, k) for k in self._dbkeys}
         await database.execute(
@@ -92,7 +92,7 @@ class User():
     
     def wish(self, chat_type: str) -> str:
         """
-
+        wish: wish function... idk what to write here.
         """
         if chat_type == 'private':
             return self.lang.wish_in_private
@@ -205,6 +205,9 @@ class User():
             user=self, item=item, repo=utils.REPOSITORY_NAME, info=info)
     
     def inv(self, chat_type: str) -> str:
+        """
+        inv: shows player inventory.
+        """
         # counts every rarity items
         counts = [0, 0, 0, 0, 0, 0]
         # item strings (like "Amos' Bow R4")
@@ -231,3 +234,4 @@ class User():
             return self.lang.inventory_in_private.format(user=self)
         else:
             return self.lang.inventory_in_group.format(user=self)
+
