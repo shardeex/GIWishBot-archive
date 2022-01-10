@@ -78,7 +78,7 @@ def format_en_word(number: int, word: list) -> str:
     
     yeah I really like english simplicity. one or many - that's all
     """
-    if number%10 == 1:
+    if number == 1:
         return f'{number} {word[0]}'
     else:
         return f'{number} {word[1]}'
