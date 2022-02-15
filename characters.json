@@ -615,6 +615,21 @@
         }
     },
     {
+        "id": "yae_miko",
+        "rarity": 5,
+        "weapon": "catalyst",
+        "element": "electro",
+        "gacha": true,
+        "name": {
+            "en": "Yae Miko",
+            "ru": "Яэ Мико"
+        },
+        "description": {
+            "en": "Lady Guuji of the Grand Narukami Shrine also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
+            "ru": "Гудзи Великого храма Наруками, а также главный редактор издательского дома Яэ. Под прекрасной внешностью скрывается неожиданный ум и хитрость."
+        }
+    },
+    {
         "id": "yanfei",
         "rarity": 4,
         "weapon": "catalyst",

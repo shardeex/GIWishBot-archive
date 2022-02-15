@@ -672,6 +672,20 @@
         }
     },
     {
+        "id": "kaguras_verity",
+        "rarity": 5,
+        "type": "catalyst",
+        "gacha": true,
+        "name": {
+            "en": "Kagura's Verity",
+            "ru": "Истина кагура"
+        },
+        "description": {
+            "en": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
+            "ru": "Божественные колокольчики, используемые в ритуальном танце кагура, благословлены самой Гудзи. Вокруг них витает аромат цветков Священной сакуры."
+        }
+    },
+    {
         "id": "katsuragikiri_nagamasa",
         "rarity": 4,
         "type": "claymore",
@@ -865,6 +879,20 @@
         "description": {
             "en": "A lovely warbow made from seashells and coral. A mournful brilliance flows along its moonlight-colored arms.",
             "ru": "Прелестный лук, украшенный перламутром и кораллами. На его плечах цвета луны переливается печальное сияние."
+        }
+    },
+    {
+        "id": "oathsworn_eye",
+        "rarity": 4,
+        "type": "catalyst",
+        "gacha": false,
+        "name": {
+            "en": "Oathsworn Eye",
+            "ru": "Око клятвы"
+        },
+        "description": {
+            "en": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes.",
+            "ru": "Реликвия Бякуякоку, которая хранилась в Дайнити Микоси. После прихода бога-змея она стала доказательством великой клятвы и чаяний Энканомии."
         }
     },
     {
