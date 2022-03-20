@@ -14,10 +14,9 @@ Tap [here](https://t.me/GIWishBot) to start the bot.
 ##### Technical:
 - [x] Modularity
 - [x] Standalone image generator (to increade Heroku slug free space)
-- [ ] Rebuild code architecture for utils (really, wish, inv, etc. shouldn't be there)
+- [x] Better i18n naming
 - [ ] Refactor showcase editing (more readable and one style)
 - [ ] Reorder database user data (not so many fields maybe, just one json field)
-- [ ] Better i18n naming
 
 ##### /wish command
 - check_availability
