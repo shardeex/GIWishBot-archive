@@ -1,6 +1,6 @@
 from aiogram import types
 
-from loader import i18n
+from loader import bot, i18n
 from modules import help
 
 
@@ -12,6 +12,5 @@ async def cmd(message: types.Message) -> None:
     Args:
         message (types.Message): message object
     """
-    print(message.from_user.language_code)
-    text = help.message.get()
-    await message.answer(str(text))
+    text = help.message.get(bot=await bot.me())
+    await message.answer(text)

@@ -9,7 +9,7 @@ from filters import GroupChat, PrivateChat
 
 bot = Bot(token=getenv("TELEGRAM_TOKEN"), parse_mode="HTML")
 dp = Dispatcher(storage=MemoryStorage())
-i18n = I18n(path="app/locales", default_locale="ru", domain="GIWishBot")
+i18n = I18n(path="app/locales", default_locale="en", domain="GIWishBot")
 
 group = Router(name='group')
 group.message.bind_filter(GroupChat)

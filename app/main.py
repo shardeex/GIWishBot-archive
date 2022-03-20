@@ -1,4 +1,5 @@
 import asyncio
+import time
 import sys
 
 from loader import bot, dp, group, private
@@ -7,7 +8,7 @@ from loader import bot, dp, group, private
 async def main():
     sys.path.append('.')  # fix relative imports
 
-    bot_user = await bot.get_me()
+    bot_user = await bot.me()
     
     import app
     import handlers
