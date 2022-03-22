@@ -1,7 +1,7 @@
 import asyncio
-import time
 import sys
 
+from database import database as db
 from loader import bot, dp, group, private
 
 
@@ -11,6 +11,7 @@ async def main():
     bot_user = await bot.me()
     
     import app
+    # import genshin
     import handlers
     import middlewares
 
@@ -18,7 +19,12 @@ async def main():
     middlewares.setup(group, private)
 
     print(f'"{bot_user.full_name}" loaded. v{app.version}')
+    await db.connect()
     await dp.start_polling(bot)
 
 if __name__ == '__main__':
     asyncio.run(main())
+
+# pybabel extract -o locales/GIWishBot.pot --input-dirs=. --project=GIWishBot --version=2.5.0a3 --msgid-bugs-address=sh4rdeex@gmail.com --copyright-holder=shardeex
+# pybabel init -i locales/GIWishBot.pot -d locales -D GIWishBot -l en
+# pybabel init -i locales/GIWishBot.pot -d locales -D GIWishBot -l ru

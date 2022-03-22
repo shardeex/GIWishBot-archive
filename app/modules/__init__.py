@@ -1,1 +1,1 @@
-from . import help
+from . import help, wish
