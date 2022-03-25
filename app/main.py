@@ -20,7 +20,7 @@ async def main():
 
     print(f'"{bot_user.full_name}" loaded. v{app.__version__}')
     await database.connect()
-    await database.start_polling(bot)
+    await dp.start_polling(bot)
 
 if __name__ == '__main__':
     asyncio.run(main())

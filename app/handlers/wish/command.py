@@ -1,3 +1,5 @@
+import asyncio
+
 from aiogram import types
 from app.schema import Player
 
@@ -11,6 +13,7 @@ async def private_cmd(message: types.Message, player: Player) -> None:
     :param Player player: player object
     '''
     text = str(player.blessing_of_the_welkin_moon)
+    await asyncio.sleep(5)
     await message.answer(text)
     return {'save_player': True}
 

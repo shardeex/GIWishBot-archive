@@ -36,21 +36,28 @@ class PlayerCacheMiddleware(BaseMiddleware):
         event: allowed_types,
         data: Dict[str, Any]
     ) -> Any:
-        # get player from cache or load from database
+        # get player from cache or load from database,
+        # lock to prevent changing data while processing handler
         player: Player | None = await self.__cache.get(event.from_user.id)
         if not player:
             player = await Player(event.from_user.id).load()
-        
+        elif player.lock:
+            return
+
+        player.lock = True
+
         # set player or update ttl
         await self.__cache.set(event.from_user.id, player, ttl=self.ttl)
-        data['player'] = player
 
+        data['player'] = player
         result = await handler(event, data)
-        
+
         # save player if handler returns {'save_player': True}
         if result.get('save_player'):
             await player.save()
             await self.__cache.set(player.id, player, ttl=self.ttl)
+
+        player.lock = False
 
         return result
 

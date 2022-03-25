@@ -22,6 +22,8 @@ class Player:
     masterless_starglitter: int = 0
     genesis_crystals: int = 0
 
+    lock: bool = False  # throttling
+
     def __init__(self, user_id: int) -> None:
         self.id = user_id
         self.__database_keys = [c.name for c in db.players.table.columns]
