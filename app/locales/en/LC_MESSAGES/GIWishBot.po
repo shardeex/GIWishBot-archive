@@ -1,15 +1,15 @@
-# English translations for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
+# English translations for GIWishBot.
+# Copyright (C) 2022 shardeex
+# This file is distributed under the same license as the GIWishBot project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIWishBot 2.5.0a2\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-20 13:45+0300\n"
-"PO-Revision-Date: 2022-03-20 15:24+0300\n"
-"Last-Translator: \n"
+"Project-Id-Version: GIWishBot 2.5.0a4\n"
+"Report-Msgid-Bugs-To: sh4rdeex@gmail.com\n"
+"POT-Creation-Date: 2022-03-25 09:03+0300\n"
+"PO-Revision-Date: 2022-03-25 09:07+0300\n"
+"Last-Translator: shardeex <sh4rdeex@gmail.com>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -19,27 +19,27 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: modules/help/message.py:11
+#: modules/help/message.py:12
 msgid "<b>{bot.full_name} 🇺🇸 | @{bot.username}</b>"
 msgstr ""
 
-#: modules/help/message.py:12
+#: modules/help/message.py:13
 msgid "Special thanks goes to:"
 msgstr ""
 
-#: modules/help/message.py:13
+#: modules/help/message.py:14
 msgid ""
 "✦ <b><a href=\"ambr.top\">Project Amber</a></b> for the game data and "
 "character pictures."
 msgstr ""
 
-#: modules/help/message.py:15
+#: modules/help/message.py:16
 msgid ""
 "✦ <b><a href=\"https://t.me/vsratoteivat\">Vsratiy Teyvat</a></b> for "
 "the active help in bot development and testing."
 msgstr ""
 
-#: modules/help/message.py:19
+#: modules/help/message.py:20
 msgid ""
 "<b><a href=\"https://github.com/shardeex/GIWishBot\">GitHub</a></b> | "
 "<b><a href=\"https://t.me/shardeex\">Author</a></b> | <b>v{version}</b>"

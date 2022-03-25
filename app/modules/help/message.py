@@ -1,7 +1,7 @@
 from aiogram.types import User
 
 import app
-from loader import i18n
+from app.loader import i18n
 
 
 _ = i18n.lazy_gettext
@@ -17,6 +17,6 @@ def get(bot: User) -> str:
             'for the active help in bot development and testing.'),
         _('<b><a href="https://github.com/shardeex/GIWishBot">GitHub</a></b> | ' +
             '<b><a href="https://t.me/shardeex">Author</a></b> | ' +
-            '<b>v{version}</b>'.format(version=app.version)),
+            '<b>v{version}</b>'.format(version=app.__version__)),
         )
     return preview + "\n".join(map(str, strings))

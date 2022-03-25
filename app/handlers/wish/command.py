@@ -1,26 +1,25 @@
 from aiogram import types
 from app.schema import Player
 
-#from modules import wish
-from app import cache
+#from app.modules import wish
 
 
-@cache.player_loader(with_save=True)
 async def private_cmd(message: types.Message, player: Player) -> None:
-    """/wish command in private scope
+    '''/wish command in private scope
 
-    Args:
-        message (types.Message): message object
-    """
-    text = str(...)
+    :param types.Message message: user's message
+    :param Player player: player object
+    '''
+    text = str(player.blessing_of_the_welkin_moon)
     await message.answer(text)
+    return {'save_player': True}
 
-@cache.player_loader(with_save=True)
-async def group_cmd(message: types.Message) -> None:
-    """/wish command in group scope
+async def group_cmd(message: types.Message, player: Player) -> None:
+    '''/wish command in group scope
 
-    Args:
-        message (types.Message): message object
-    """
-    text = str(...)
+    :param types.Message message: user's message
+    :param Player player: player object
+    '''
+    text = str(player.blessing_of_the_welkin_moon)
     await message.reply(text)
+    return {'save_player': True}
