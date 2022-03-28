@@ -7,6 +7,11 @@ from app.loader import i18n
 _ = i18n.lazy_gettext
 
 def get(bot: User) -> str:
+    '''_summary_
+
+    :param User bot: _description_
+    :return str: _description_
+    '''
     preview = '<a href="https://github.com/shardeex/GIWishBot">\u2060</a>'
     strings = (
         _('<b>{bot.full_name} 🇺🇸 | @{bot.username}</b>').format(bot=bot),
@@ -17,6 +22,6 @@ def get(bot: User) -> str:
             'for the active help in bot development and testing.'),
         _('<b><a href="https://github.com/shardeex/GIWishBot">GitHub</a></b> | ' +
             '<b><a href="https://t.me/shardeex">Author</a></b> | ' +
-            '<b>v{version}</b>'.format(version=app.__version__)),
+            '<b>v{version}</b>').format(version=app.__version__)
         )
-    return preview + "\n".join(map(str, strings))
+    return preview + '\n'.join(map(str, strings))

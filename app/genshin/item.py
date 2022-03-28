@@ -10,19 +10,19 @@ class Item:
     description: dict[str, str]
 
     def __post_init__(self):
-        self.name_with_rarity: dict[str, str] = {
-            l: f'{n} {"★"*self.rarity}' for l, n in self.name.items()}
+        self.stars = "★" * self.rarity
         
-    def get_name(self, locale: str) -> str:
-        """Get localized item name
+    def get_name(self, locale: str, rarity: bool = False) -> str:
+        '''Get localized item name
 
-        Args:
-            locale (str): name locale.
-
-        Returns:
-            str: localized item name, or 'en' name.
-        """
-        return self.name.get(locale, self.name['en'])
+        :param str locale: name locale
+        :param bool rarity: add rarity stars or not, defaults to False
+        :return str: localized item name, or 'en' name.
+        '''
+        name = self.name.get(locale, self.name['en'])
+        if rarity:
+            name += ' ' + "★" * self.rarity
+        return name
     
     def get_desc(self, locale: str) -> str:
         """Get localized item description

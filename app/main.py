@@ -11,7 +11,6 @@ async def main():
     bot_user = await bot.me()
 
     import app
-    # import genshin
     import handlers
     import middlewares
 
@@ -24,7 +23,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-
-# pybabel extract -o locales/GIWishBot.pot --input-dirs=. --project=GIWishBot --version=2.5.0a4 --msgid-bugs-address=sh4rdeex@gmail.com --copyright-holder=shardeex
-# pybabel init -i locales/GIWishBot.pot -d locales -D GIWishBot -l en
-# pybabel init -i locales/GIWishBot.pot -d locales -D GIWishBot -l ru

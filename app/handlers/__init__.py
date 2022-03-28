@@ -8,5 +8,5 @@ def setup(group: Router, private: Router) -> None:
     private.message.register(help.cmd, commands=['help'])
 
     # Wish handlers
-    private.message.register(wish.private_cmd, commands=['wish'])
-    group.message.register(wish.group_cmd, commands=['wish'])
+    private.message.register(wish.cmd, commands=['wish'])
+    group.message.register(wish.cmd, commands=['wish'])

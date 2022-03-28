@@ -4,7 +4,7 @@ from app.loader import bot
 from app.modules import help
 
 
-async def cmd(message: types.Message, i18n) -> None:
+async def cmd(message: types.Message) -> dict[str, bool]:
     '''/help command
 
     :param types.Message message: user's message

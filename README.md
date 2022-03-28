@@ -1,27 +1,22 @@
-# GIWishBot
+# GIWishBot - Telegram Bot
 
-Tap [here](https://t.me/GIWishBot) to start the bot.
+Tap [here](https://t.me/GIWishBot) to start Genshin Impact Wish Bot. Wish two times a day in any Telegram chat to get characters and weapons.
 
-##### ToDo list:
-- [ ] Standard wishes and moon wishes
-- [ ] Selectable inventory
-- [ ] Profile pities & items data
-- [ ] Profile showcase
+##### Features:
+- [x] Regular wishes (two times a day)
+- [x] Blessing of the Welkin Moon wishes (additional two times a day)
+- [ ] Inventory categorized by characters and weapons rarity with inline buttons
+- [ ] Profile with pity and precious items info
+- [ ] Profile character showcase
 - [ ] Profile namecards
-- [ ] Items shop
-- [ ] Donation
-
-##### Technical:
-- [x] Modularity
-- [x] Standalone image generator (to increade Heroku slug free space)
-- [x] Better i18n naming
-- [ ] Refactor showcase editing (more readable and one style)
-- [ ] Reorder database user data (not so many fields maybe, just one json field)
+- [ ] Shop with characters and weapons
+- [ ] Support via DonationAlerts
 
 ##### /wish command
-- check_availability
-    - check_normal
-    - check_moon
+- wish.check.availability
+    - availability()
+    - availability(moon=True)
+
 - get_item
     - check_rarity_pities
     - check_type_pities

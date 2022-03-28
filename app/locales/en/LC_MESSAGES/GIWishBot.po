@@ -5,42 +5,60 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIWishBot 2.5.0a4\n"
+"Project-Id-Version: GIWishBot 2.5.0a6\n"
 "Report-Msgid-Bugs-To: sh4rdeex@gmail.com\n"
-"POT-Creation-Date: 2022-03-25 09:03+0300\n"
-"PO-Revision-Date: 2022-03-25 09:07+0300\n"
-"Last-Translator: shardeex <sh4rdeex@gmail.com>\n"
-"Language-Team: en <LL@li.org>\n"
+"POT-Creation-Date: 2022-03-27 17:09+0300\n"
+"PO-Revision-Date: 2022-03-27 17:09+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
-#: modules/help/message.py:12
+#: modules/help/message.py:17
 msgid "<b>{bot.full_name} 🇺🇸 | @{bot.username}</b>"
 msgstr ""
 
-#: modules/help/message.py:13
+#: modules/help/message.py:18
 msgid "Special thanks goes to:"
 msgstr ""
 
-#: modules/help/message.py:14
+#: modules/help/message.py:19
 msgid ""
 "✦ <b><a href=\"ambr.top\">Project Amber</a></b> for the game data and "
 "character pictures."
 msgstr ""
 
-#: modules/help/message.py:16
+#: modules/help/message.py:21
 msgid ""
-"✦ <b><a href=\"https://t.me/vsratoteivat\">Vsratiy Teyvat</a></b> for "
-"the active help in bot development and testing."
+"✦ <b><a href=\"https://t.me/vsratoteivat\">Vsratiy Teyvat</a></b> for the"
+" active help in bot development and testing."
 msgstr ""
 
-#: modules/help/message.py:20
+#: modules/help/message.py:23
 msgid ""
 "<b><a href=\"https://github.com/shardeex/GIWishBot\">GitHub</a></b> | "
 "<b><a href=\"https://t.me/shardeex\">Author</a></b> | <b>v{version}</b>"
 msgstr ""
+
+#: modules/wish/message.py:29
+msgid "{preview}{desc}\n"
+msgstr ""
+
+#: modules/wish/message.py:30
+msgid "{mention}, you received <b>{name}</b>! {info}"
+msgstr ""
+
+#: modules/wish/message.py:44
+msgid "{mention}, you can wish again in {time_left}."
+msgstr ""
+
+#: modules/wish/message.py:52
+msgid ""
+"You can wish in group chat to get <b>Masterless Stardust</b> and "
+"<b>Masterless Starglitter</b>."
+msgstr ""
+

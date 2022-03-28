@@ -9,11 +9,11 @@ from .main import metadata
 showcase_default: list[list[str]] = [list() for n in range(4)]
 
 # item ids as keys, numbers as values
-invnetory_default = {}
+invnetory_default = [0, {}, {}, {}, {}, {}]
 
 # pity data for 4* and 5*
-__pity_data = {"pity": 0, "last": None, "twice": False}
-pities_default = {str(n): __pity_data for n in (4, 5)}
+pities_default = {
+    str(n): {"pity": 0, "isweapon": None, "twice": False} for n in (4, 5)}
 
 table = sqlalchemy.Table('players', metadata,
     # id: telegram user id.

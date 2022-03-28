@@ -10,6 +10,8 @@ from filters import GroupChat, PrivateChat
 bot = Bot(token=getenv("TELEGRAM_TOKEN"), parse_mode="HTML")
 dp = Dispatcher(storage=MemoryStorage())
 i18n = I18n(path="app/locales", default_locale="en", domain="GIWishBot")
+# not working for now
+assets_path = 'https://raw.githubusercontent.com/shardeex/GIWishBot/main/assets'
 
 group = Router(name='group')
 group.message.bind_filter(GroupChat)
