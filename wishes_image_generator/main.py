@@ -2,19 +2,15 @@ import os
 import sys
 import textwrap
 from pathlib import Path
-from typing import Union
 
 from PIL import Image, ImageCms, ImageDraw, ImageEnhance, ImageFont
 
 file = Path(__file__).resolve()
 parent, root = file.parent, file.parents[1]
 sys.path.append(str(root))
-print(root)
 
-from data import items
+from app import genshin
 
-GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-REPOSITORY_NAME = 'GIWishBot'
 
 image_boxes = {
     'icon': (26, 279, 122, 375),
@@ -28,40 +24,40 @@ name_dot = (99, 306)
 delta_star_box = (21, 32)
 
 assets = \
-    list(w[:-4] for w in os.listdir(f'image_generator/characters/')) + \
-    list(w[:-4] for w in os.listdir(f'image_generator/weapons/'))
-print(f'Found {len(assets)}/{len(items.all_dict.values())} assets.')
+    list(w[:-4] for w in os.listdir('wishes_image_generator/characters')) + \
+    list(w[:-4] for w in os.listdir('wishes_image_generator/weapons'))
+print(f'Found {len(assets)}/{len(genshin.items.values())} assets.')
 
-def create(item: Union[items.Character, items.Weapon], lang: str) -> None:
-    image = Image.open('image_generator/wishes_background.png')
-    star = Image.open('image_generator/star.png').convert(mode='RGBA')
+def create(item: genshin.Character | genshin.Weapon, lang: str) -> None:
+    image = Image.open('wishes_image_generator/wishes_background.png')
+    star = Image.open('wishes_image_generator/star.png').convert(mode='RGBA')
     draw = ImageDraw.Draw(image)
-    font = ImageFont.truetype('image_generator/font.ttf', 32)
+    font = ImageFont.truetype('wishes_image_generator/font.ttf', 32)
 
-    box = image_boxes[item.__class__.__name__.lower()]
+    box = image_boxes[item.category[:-1]]  # without 's'
     size = box[2] - box[0], box[3] - box[1]
 
     assets = []
     
-    if item.__class__ == items.Weapon:
+    if item.__class__ == genshin.Weapon:
         assets.append((
-            Image.open(f'image_generator/weapon_bg/{item.type}.png').resize((589, 589)),
+            Image.open(f'wishes_image_generator/weapon_bg/{item.type}.png').resize((589, 589)),
             image_boxes['weapon_bg']))
         assets.append((ImageEnhance.Brightness(
-            Image.open(f'image_generator/weapons/{item.id}.png').resize(size)).enhance(0.1),
+            Image.open(f'wishes_image_generator/weapons/{item.id}.png').resize(size)).enhance(0.1),
             image_boxes['weapon_shadow']))
         assets.append((
-            Image.open(f'image_generator/weapons/{item.id}.png').resize(size),
+            Image.open(f'wishes_image_generator/weapons/{item.id}.png').resize(size),
             image_boxes['weapon']))
         assets.append((
-            Image.open(f'image_generator/weapon_icon/{item.type}.png'),
+            Image.open(f'wishes_image_generator/weapon_icon/{item.type}.png'),
             image_boxes['icon']))
-    elif item.__class__ == items.Character:
+    elif item.__class__ == genshin.Character:
         assets.append((
-            Image.open(f'image_generator/characters/{item.id}.png').resize(size),
+            Image.open(f'wishes_image_generator/characters/{item.id}.png').resize(size),
             image_boxes['character']))
         assets.append((
-            Image.open(f'image_generator/element_icon/{item.vision}.png'),
+            Image.open(f'wishes_image_generator/element_icon/{item.vision}.png'),
             image_boxes['icon']))
     else:
         raise ValueError(item)
@@ -90,15 +86,15 @@ def create(item: Union[items.Character, items.Weapon], lang: str) -> None:
             name_strings[i], (255, 255, 255), font,
             stroke_width=1, stroke_fill=(0, 0, 0))
 
-    profile = ImageCms.ImageCmsProfile('image_generator/AdobeRGB1998.icc')
-    path = f'assets/images/gacha/{lang}/{item.id}.png'
+    profile = ImageCms.ImageCmsProfile('wishes_image_generator/AdobeRGB1998.icc')
+    path = f'assets/images/wishes/{lang}/{item.id}.png'
     image.save(path, icc_profile=profile.tobytes())
     return path
 
 def main():
     for lang in ('en', 'ru'):
-        assets_list = list(w[:-4] for w in os.listdir(f'assets/images/gacha/{lang}'))
-        for item in items.all_list:
+        assets_list = list(w[:-4] for w in os.listdir(f'assets/images/wishes/{lang}'))
+        for item in genshin.items.values():
             if not item.id in assets_list:
                 if not item.id in assets:
                     print(f'{item.id} not found in assets.')

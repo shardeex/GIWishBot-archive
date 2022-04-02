@@ -616,6 +616,20 @@
         }
     },
     {
+        "id": "haran_geppaku_futsu",
+        "rarity": 5,
+        "type": "sword",
+        "location": "wish",
+        "name": {
+            "en": "Haran Geppaku Futsu",
+            "ru": "Харан Гэппаку Фуцу"
+        },
+        "description": {
+            "en": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
+            "ru": "Произведение искусства рода кузнецов Фуцу. «Харан» в названии связано со сходством клинка с неистовыми морскими валами."
+        }
+    },
+    {
         "id": "harbinger_of_dawn",
         "rarity": 3,
         "type": "sword",

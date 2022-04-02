@@ -285,6 +285,21 @@
         }
     },
     {
+        "id": "kamisato_ayato",
+        "rarity": 5,
+        "weapon": "sword",
+        "vision": "hydro",
+        "location": "wish",
+        "name": {
+            "en": "Kamisato Ayato",
+            "ru": "Аято"
+        },
+        "description": {
+            "en": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+            "ru": "Молодой и всесторонне одарённый глава комиссии Ясиро из клана Камисато. Он вежливый и предупредительный человек, у которого для любой проблемы найдётся множество решений."
+        }
+    },
+    {
         "id": "keqing",
         "rarity": 5,
         "weapon": "sword",
