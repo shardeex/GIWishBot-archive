@@ -3,9 +3,15 @@ from dataclasses import dataclass
 from .item import Item
 
 
-@dataclass
+@dataclass(repr=False)
 class Weapon(Item):
     type: str
+
+    category = 'weapons'
+
+    def name_with_number(
+        self, locale: str, number: int, extra: bool = False) -> str:
+        return self.name_with_replica(locale, number, extra)
     
     def name_with_replica(
         self, locale: str, number: int, extra: bool = False) -> str:

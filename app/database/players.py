@@ -9,7 +9,7 @@ from .main import metadata
 showcase_default: list[list[str]] = [list() for n in range(4)]
 
 # item ids as keys, numbers as values
-invnetory_default = [0, {}, {}, {}, {}, {}]
+invnetory_default: dict[str, int] = {}
 
 # pity data for 4* and 5*
 pities_default = {

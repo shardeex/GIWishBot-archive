@@ -1,7 +1,9 @@
 from dataclasses import dataclass
 
+from app import symbols
 
-@dataclass
+
+@dataclass(repr=False)
 class Item:
     id: int
     rarity: int
@@ -10,7 +12,10 @@ class Item:
     description: dict[str, str]
 
     def __post_init__(self):
-        self.stars = "★" * self.rarity
+        self.stars = symbols.stars(1) * self.rarity
+    
+    def __repr__(self):
+        return self.get_name('en', True)
         
     def get_name(self, locale: str, rarity: bool = False) -> str:
         '''Get localized item name

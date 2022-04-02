@@ -70,15 +70,13 @@ def get(player: Player):
         item = genshin.items[item_id]
     
     # save item to user's inventory
-    section = player.inventory[rarity]
-    section[item_id] = section.get(item_id, 0) + 1
-    player.inventory[0] += 1  # wish counter
+    player.inventory[item_id] = player.inventory.get(item_id, 0) + 1
 
     return item
 
 def cashback(player: Player, item: genshin.Weapon | genshin.Character) -> str:
     cashback = ''
-    number = player.inventory[item.rarity][item.id]
+    number = player.inventory[item.id]
 
     if item.rarity == 5:
         if isinstance(item, genshin.Character):

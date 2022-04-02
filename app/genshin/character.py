@@ -3,11 +3,17 @@ from dataclasses import dataclass
 from .item import Item
 
 
-@dataclass
+@dataclass(repr=False)
 class Character(Item):
     weapon: str
     vision: str
-    
+
+    category = 'characters'
+
+    def name_with_number(
+        self, locale: str, number: int, extra: bool = False) -> str:
+        return self.name_with_constellation(locale, number, extra)
+
     def name_with_constellation(
         self, locale: str, number: int, extra: bool = False) -> str:
         """Get character name with constellation

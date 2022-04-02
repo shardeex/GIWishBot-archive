@@ -11,7 +11,7 @@ class Player:
     id: int
 
     showcase: list[dict[str, str]] = db.players.showcase_default
-    inventory: list[dict[str, int]] = db.players.invnetory_default
+    inventory: dict[str, int] = db.players.invnetory_default
     pities: dict[str, dict[str, bool | int | None]] = db.players.pities_default
 
     blessing_of_the_welkin_moon: bool = False

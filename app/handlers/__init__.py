@@ -1,6 +1,6 @@
 from aiogram import Router
 
-from . import help, wish
+from . import help, inv, wish
 
 
 def setup(group: Router, private: Router) -> None:
@@ -10,3 +10,9 @@ def setup(group: Router, private: Router) -> None:
     # Wish handlers
     private.message.register(wish.cmd, commands=['wish'])
     group.message.register(wish.cmd, commands=['wish'])
+
+    # Inv handlers
+    private.message.register(inv.cmd, commands=['inv'])
+    group.message.register(inv.cmd, commands=['inv'])
+    private.callback_query.register(inv.call, inv.Category.filter())
+    group.callback_query.register(inv.call, inv.Category.filter())
