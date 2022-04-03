@@ -1,3 +1,4 @@
 aiogram==3.0.0b2
+asyncpg==0.25.0
 databases==0.5.5
 SQLAlchemy==1.4.32
