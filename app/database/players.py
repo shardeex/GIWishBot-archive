@@ -28,6 +28,8 @@ table = sqlalchemy.Table('players', metadata,
     # pities: player's data about pities
     sqlalchemy.Column(
         'pities', sqlalchemy.JSON, server_default=json.dumps(pities_default)),
+    sqlalchemy.Column(
+        'wishes', sqlalchemy.Integer, server_default='0'),
     # blessing_of_the_welkin_moon: does player have purchased moon or not
     sqlalchemy.Column(
         'blessing_of_the_welkin_moon', sqlalchemy.Boolean, server_default='false'),

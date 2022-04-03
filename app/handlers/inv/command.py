@@ -22,7 +22,8 @@ async def cmd(
     username = message.from_user.full_name
 
     items = inv.load.items_by_rarity(player.inventory)
-    names = inv.load.names_by_rarity(i18n.current_locale, items=items)
+    names = inv.load.names_by_rarity(
+        i18n.current_locale, items=items, extra_number=True)
     numbers = inv.load.numbers_by_rarity(items=items)
     text = inv.message.get(player, username, names, numbers)
 

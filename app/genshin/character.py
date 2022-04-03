@@ -28,6 +28,6 @@ class Character(Item):
             str: name with constellation, e.g. "Lisa C4"
         """
         if not extra or number <= 7:  # no extra const
-            return f'{self.name[locale]} C{number-1}'  # C0 means 1, C1 - 2..
+            return f'{self.name[locale]} C{number-1 if number <= 7 else 6}'  # C0 means 1, C1 - 2..
         else:
             return f'{self.name[locale]} C6+{number-7}'

@@ -21,7 +21,7 @@ def get_now(
     :param str info: _description_
     :return str: _description_
     '''
-    preview = f'<a href="{assets_path}/images/{lang}/{item.id}.png">\u2060</a>'
+    preview = f'<a href="{assets_path}/images/wishes/{lang}/{item.id}.png">\u2060</a>'
     mention = f'<a href="tg://user?id={player.id}">{name}</a>'
     name = item.get_name(lang, rarity=True)
     desc = item.get_desc(lang)

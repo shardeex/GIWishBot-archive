@@ -27,6 +27,6 @@ class Weapon(Item):
             str: name with replica, e.g. "Rust R4"
         """
         if not extra or number <= 5:  # no extra replica
-            return f'{self.name[locale]} R{number}'
+            return f'{self.name[locale]} R{number if number <= 5 else 5}'
         else:
             return f'{self.name[locale]} R5+{number-5}'

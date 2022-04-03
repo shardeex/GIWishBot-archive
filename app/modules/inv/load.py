@@ -47,6 +47,7 @@ def names_by_rarity(
             number = cast(int, data['number'])
             names[rarity].append(
                 item.name_with_number(lang, number, extra_number))
+        names[rarity].sort()
     return names
 
 def numbers_by_rarity(

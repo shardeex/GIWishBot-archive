@@ -107,6 +107,6 @@ def cashback(player: Player, item: genshin.Weapon | genshin.Character) -> str:
         cashback = symbols.masterless_stardust(15)
 
     if cashback:
-        cashback = f'「{cashback}」'
+        cashback = f'[{cashback}]'
 
     return cashback
