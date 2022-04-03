@@ -1,0 +1,105 @@
+# Russian translations for GIWishBot.
+# Copyright (C) 2022 shardeex
+# This file is distributed under the same license as the GIWishBot project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GIWishBot 2.5.0a7\n"
+"Report-Msgid-Bugs-To: sh4rdeex@gmail.com\n"
+"POT-Creation-Date: 2022-04-02 11:05+0300\n"
+"PO-Revision-Date: 2022-04-02 11:05+0300\n"
+"Last-Translator: shardeex <sh4rdeex@gmail.com>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: keyboards/inline/inv/category.py:19
+msgid "All"
+msgstr "Все"
+
+#: keyboards/inline/inv/category.py:22
+msgid "Characters"
+msgstr "Персонажи"
+
+#: keyboards/inline/inv/category.py:25
+msgid "Weapons"
+msgstr "Оружия"
+
+#: modules/help/message.py:17
+msgid "<b>{bot.full_name} 🇺🇸 | @{bot.username}</b>"
+msgstr "<b>{bot.full_name} 🇷🇺 | @{bot.username}</b>"
+
+#: modules/help/message.py:18
+msgid "Special thanks goes to:"
+msgstr "Особая благодарность:"
+
+#: modules/help/message.py:19
+msgid ""
+"✦ <b><a href=\"ambr.top\">Project Amber</a></b> for the game data and "
+"character pictures."
+msgstr ""
+"✦ <b><a href=\"ambr.top\">Проект Эмбер</a></b> за игровые данные и "
+"изображения персонажей."
+
+#: modules/help/message.py:21
+msgid ""
+"✦ <b><a href=\"https://t.me/vsratoteivat\">Vsratiy Teyvat</a></b> for "
+"the active help in bot development and testing."
+msgstr ""
+"✦ <b><a href=\"https://t.me/vsratoteivat\">Всратый Тейват</a></b> за "
+"активную помощь в разработке и тестировании бота."
+
+#: modules/help/message.py:23
+msgid ""
+"<b><a href=\"https://github.com/shardeex/GIWishBot\">GitHub</a></b> | "
+"<b><a href=\"https://t.me/shardeex\">Author</a></b> | <b>v{version}</b>"
+msgstr ""
+"<b><a href=\"https://github.com/shardeex/GIWishBot\">GitHub</a></b> | "
+"<b><a href=\"https://t.me/shardeex\">Автор</a></b> | <b>v{version}</b>"
+
+#: modules/inv/message.py:22
+msgid "{mention}, here is your inventory:"
+msgstr "{mention}, вот Ваш инвентарь:"
+
+#: modules/inv/message.py:26
+msgid "{mention}, here is your characters:"
+msgstr "{mention}, вот Ваши персонажи:"
+
+#: modules/inv/message.py:30
+msgid "{mention}, here is your weapons:"
+msgstr "{mention}, вот Ваши оружия:"
+
+#: modules/inv/message.py:39
+msgid "<i>There is no spoon.</i>"
+msgstr "<i>Здесь ничего нет.</i>"
+
+#: modules/inv/message.py:45
+msgid "{stars} ({number}):"
+msgstr "{stars} ({number}):"
+
+#: modules/wish/message.py:29
+msgid "{preview}{desc}\n"
+msgstr "{preview}{desc}\n"
+
+#: modules/wish/message.py:30
+msgid "{mention}, you received <b>{name}</b>! {info}"
+msgstr "{mention}, награда за молитву — <b>{name}</b>! {info}"
+
+#: modules/wish/message.py:44
+msgid "{mention}, you can wish again in {time_left}."
+msgstr "{mention}, Вы сможете помолиться снова через {time_left}."
+
+#: modules/wish/message.py:52
+msgid ""
+"You can wish in group chat to get <b>Masterless Stardust</b> and "
+"<b>Masterless Starglitter</b>."
+msgstr ""
+"Вы можете молиться в групповом чате, чтобы получать <b>Блуждающую "
+"звёздную пыль</b> и <b>Блуждающий звёздный блеск</b>."

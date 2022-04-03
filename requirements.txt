@@ -1,7 +1,0 @@
-aiogram==3.0.0b1
-asyncpg==0.24.0
-databases==0.5.3
-PyGithub==1.55
-Pillow==8.4.0
-psycopg2==2.9.1
-SQLAlchemy==1.4.25
