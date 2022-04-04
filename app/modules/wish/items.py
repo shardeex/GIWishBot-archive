@@ -68,9 +68,10 @@ def get(player: Player):
     else:  # rarity = 3
         item_id = random.choice(genshin.wish_wepn_ids[rarity])
         item = genshin.items[item_id]
-    
+
     # save item to user's inventory
     player.inventory[item_id] = player.inventory.get(item_id, 0) + 1
+    player.wishes += 1
 
     return item
 

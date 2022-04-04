@@ -36,7 +36,8 @@ class Player:
         # init only 'id', others are default
         query = db.players.table.insert().values(id=self.id)
         await db.database.execute(query=query)
-    
+        await self.load()  # fix shadowing inventories
+
     async def load(self, create=True) -> Player:
         '''loads user data from database
 
