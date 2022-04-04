@@ -8,7 +8,7 @@ _ = i18n.lazy_gettext
 def get_now(
     lang: str,
     player: Player,
-    name: str,
+    username: str,
     item: genshin.Character | genshin.Weapon,
     info: str
     ) -> str:
@@ -22,7 +22,7 @@ def get_now(
     :return str: _description_
     '''
     preview = f'<a href="{assets_path}/images/wishes/{lang}/{item.id}.png">\u2060</a>'
-    mention = f'<a href="tg://user?id={player.id}">{name}</a>'
+    mention = f'<a href="tg://user?id={player.id}">{username}</a>'
     name = item.get_name(lang, rarity=True)
     desc = item.get_desc(lang)
     strings = (

@@ -1,4 +1,4 @@
-from aiogram import types
+from aiogram import html, types
 from aiogram.utils.i18n.core import I18n
 
 from app.modules import inv
@@ -19,7 +19,7 @@ async def cmd(
     :param Player player: _description_
     :return dict[str, bool]: _description_
     '''
-    username = message.from_user.full_name
+    username = html.quote(message.from_user.full_name)
 
     items = inv.load.items_by_rarity(player.inventory)
     names = inv.load.names_by_rarity(

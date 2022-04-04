@@ -1,8 +1,8 @@
-from aiogram import types
+from aiogram import html, types
 from aiogram.utils.i18n.core import I18n
-from app.schema import Player
 
 from app.modules import wish
+from app.schema import Player
 
 
 async def cmd(
@@ -17,7 +17,7 @@ async def cmd(
     :param Player player: player object
     '''
     lang = i18n.current_locale
-    name = message.from_user.full_name
+    username = html.quote(message.from_user.full_name)
     is_wish, time_left = wish.availability.check(lang, player)
     # unlimited wishes!
     # is_wish, time_left = True, 0
@@ -28,9 +28,9 @@ async def cmd(
             info = wish.items.cashback(player, item)
         else:
             info = wish.message.get_cashback_alert()
-        text = wish.message.get_now(lang, player, name, item, info)
+        text = wish.message.get_now(lang, player, username, item, info)
     else:
-        text = wish.message.get_later(player, name, time_left)
+        text = wish.message.get_later(player, username, time_left)
 
     new_message = await message.reply(text)
     result = {}
