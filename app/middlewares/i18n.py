@@ -22,7 +22,7 @@ class FixedI18nMiddleware(SimpleI18nMiddleware):
         try:
             locale = Locale.parse(event_from_user.language_code, sep="-")
             if locale is None:  # no data from Telegram about locale
-                raise UnknownLocaleError  # and return default
+                raise UnknownLocaleError()  # and return default
         except UnknownLocaleError:
             return self.i18n.default_locale
         
