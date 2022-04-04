@@ -32,7 +32,7 @@ class PlayerCacheMiddleware(BaseMiddleware):
 
     async def __call__(
         self,
-        handler: Callable[[allowed_types, Dict[str, Any]], Awaitable[Dict]],
+        handler: Callable[[allowed_types, dict[str, Any]], Awaitable[dict]],
         event: allowed_types,
         data: Dict[str, Any]
     ) -> Any:
@@ -53,9 +53,10 @@ class PlayerCacheMiddleware(BaseMiddleware):
         result = await handler(event, data)
 
         # save player if handler returns {'save_player': True}
-        if result.get('save_player'):
-            await player.save()
-            await self.__cache.set(player.id, player, ttl=self.ttl)
+        if isinstance(result, dict):
+            if result.get('save_player'):
+                await player.save()
+                await self.__cache.set(player.id, player, ttl=self.ttl)
 
         player.lock = False
 

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIWishBot 2.6.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-03 12:01+0300\n"
-"PO-Revision-Date: 2022-04-03 12:01+0300\n"
+"POT-Creation-Date: 2022-04-04 12:03+0300\n"
+"PO-Revision-Date: 2022-04-04 12:04+0300\n"
 "Last-Translator: shardeex <sh4rdeex@gmail.com>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -75,6 +75,10 @@ msgstr ""
 
 #: app/modules/inv/message.py:45
 msgid "{stars} ({number}):"
+msgstr ""
+
+#: app/modules/inv/message.py:53
+msgid "Do not use not your buttons!"
 msgstr ""
 
 #: app/modules/wish/message.py:29

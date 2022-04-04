@@ -22,6 +22,11 @@ async def call(
     :param Category callback_data: _description_
     :return dict[str, bool]: _description_
     '''
+
+    if query.message.reply_to_message.from_user.id != query.from_user.id:
+        await query.answer(inv.message.show_alert(), show_alert=True)
+        return
+
     category = callback_data.category
     username = query.from_user.full_name
 
@@ -34,5 +39,3 @@ async def call(
     await query.message.edit_text(
         text, reply_markup=keyboards.inline.inv.category.get(exclude=category))
     await query.answer()
-
-    return {'save_player': False}

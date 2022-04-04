@@ -48,3 +48,6 @@ def get(
             sections.append('')
 
     return '\n'.join(sections[:-1])
+
+def show_alert() -> str:
+    return _('Do not use not your buttons!').value
