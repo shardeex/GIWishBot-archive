@@ -33,18 +33,12 @@ async def cmd(
         text = wish.message.get_later(player, username, time_left)
 
     new_message = await message.reply(text)
-    result = {}
 
     if is_wish:
-        result['save_player'] = True
-        if item.rarity == 3:  # junk
-            result['clean_messages'] = [
-                {'message': message, 'delay': 60},
-                {'message': new_message, 'delay': 60}]
+        return {'save_player': True}
     else:
-        result['save_player'] = False
-        result['clean_messages'] = [
+        return {
+            'clean_messages': [
                 {'message': message, 'delay': 10},
                 {'message': new_message, 'delay': 10}]
-
-    return result
+            }

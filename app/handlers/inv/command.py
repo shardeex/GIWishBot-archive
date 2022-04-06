@@ -28,5 +28,3 @@ async def cmd(
     text = inv.message.get(player, username, names, numbers)
 
     await message.reply(text, reply_markup=keyboards.inline.inv.category.get())
-
-    return {'save_player': False}

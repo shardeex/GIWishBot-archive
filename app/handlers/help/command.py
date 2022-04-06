@@ -13,4 +13,3 @@ async def cmd(message: types.Message) -> dict[str, bool]:
     '''
     text = help.message.get(bot=await bot.me())
     await message.answer(text)
-    return {'save_player': False}
