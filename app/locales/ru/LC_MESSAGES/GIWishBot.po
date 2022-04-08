@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GIWishBot 2.6.3\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-08 11:49+0300\n"
-"PO-Revision-Date: 2022-04-08 11:51+0300\n"
+"PO-Revision-Date: 2022-04-08 11:55+0300\n"
 "Last-Translator: shardeex <sh4rdeex@gmail.com>\n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -102,7 +102,7 @@ msgstr "<b>[{number}]</b> 5{star} Гарант <i>(гарантировано н
 
 #: app/modules/profile/message.py:26
 msgid "<b>[{number}]</b> 4{star} Pity <i>(guaranteed at 10)</i>"
-msgstr "<b>[{number}]</b> 4{star} Гаранат <i>(гарантировано на 10)</i>"
+msgstr "<b>[{number}]</b> 4{star} Гарант <i>(гарантировано на 10)</i>"
 
 #: app/modules/profile/message.py:29
 msgid "<b>[{number}]</b> Lifetime wishes"
