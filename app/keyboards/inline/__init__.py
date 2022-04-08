@@ -1,1 +1,1 @@
-from . import inv
+from . import inv, profile

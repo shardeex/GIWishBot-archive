@@ -30,7 +30,7 @@ def get(player: Player):
         rarity = 3
         player.pities['5']['pity'] += 1
         player.pities['4']['pity'] += 1
-    
+
     # https://genshin-impact.fandom.com/wiki/Wanderlust_Invocation#Notes
     # every 270 pulls will contain both a 5★ character and weapon,
     # while every 30 pulls will have both a 4★ character and weapon.
