@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIWishBot 2.6.1\n"
+"Project-Id-Version: GIWishBot 2.6.3\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-04 12:03+0300\n"
-"PO-Revision-Date: 2022-04-04 12:04+0300\n"
+"POT-Creation-Date: 2022-04-08 11:49+0300\n"
+"PO-Revision-Date: 2022-04-08 11:51+0300\n"
 "Last-Translator: shardeex <sh4rdeex@gmail.com>\n"
 "Language-Team: ru <LL@li.org>\n"
 "Language: ru\n"
@@ -87,6 +87,42 @@ msgstr "{stars} ({number}):"
 #: app/modules/inv/message.py:53
 msgid "Do not use not your buttons!"
 msgstr "Не используйте не свои кнопки!"
+
+#: app/modules/profile/message.py:18
+msgid "<b>{mention}</b>' profile:"
+msgstr "<b>{mention}</b>, Ваш профиль:"
+
+#: app/modules/profile/message.py:21
+msgid "<b>Wish Counter:</b>"
+msgstr "<b>Счетчик молитв:</b>"
+
+#: app/modules/profile/message.py:23
+msgid "<b>[{number}]</b> 5{star} Pity <i>(guaranteed at 90)</i>"
+msgstr "<b>[{number}]</b> 5{star} Гарант <i>(гарантировано на 90)</i>"
+
+#: app/modules/profile/message.py:26
+msgid "<b>[{number}]</b> 4{star} Pity <i>(guaranteed at 10)</i>"
+msgstr "<b>[{number}]</b> 4{star} Гаранат <i>(гарантировано на 10)</i>"
+
+#: app/modules/profile/message.py:29
+msgid "<b>[{number}]</b> Lifetime wishes"
+msgstr "<b>[{number}]</b> Всего молитв"
+
+#: app/modules/profile/message.py:32
+msgid "<b>Precious items <u>(not spendable yet)</u>:</b>"
+msgstr "<b>Драгоценные предметы <u>(пока не расходуемые):</u></b>"
+
+#: app/modules/profile/message.py:34
+msgid "<b>[{number}]</b> Masterless Stardust"
+msgstr "<b>[{number}]</b> Блуждающая звёздная пыль"
+
+#: app/modules/profile/message.py:37
+msgid "<b>[{number}]</b> Masterless Starglitter"
+msgstr "<b>[{number}]</b> Блуждающий звёздный блеск"
+
+#: app/modules/profile/message.py:40
+msgid "<b>[{number}]</b> Genesis Crystals"
+msgstr "<b>[{number}]</b> Кристаллы сотворения"
 
 #: app/modules/wish/message.py:29
 msgid "{preview}{desc}\n"
