@@ -1,4 +1,3 @@
-from turtle import textinput
 from aiogram import html, types
 from aiogram.utils.i18n.core import I18n
 from aiogram.dispatcher.fsm.context import FSMContext
