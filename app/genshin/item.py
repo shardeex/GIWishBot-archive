@@ -26,7 +26,7 @@ class Item:
         '''
         name = self.name.get(locale, self.name['en'])
         if rarity:
-            name += ' ' + "★" * self.rarity
+            name += f' {self.stars}'
         return name
     
     def get_desc(self, locale: str) -> str:

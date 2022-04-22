@@ -28,9 +28,8 @@ def get_now(
     strings = (
         _('{preview}{desc}\n').format(preview=preview, desc=desc),
         _('{mention}, you received <b>{name}</b>! {info}').format(
-            mention=mention, name=name, info=info)
-        )
-    return preview + '\n'.join(map(str, strings))
+            mention=mention, name=name, info=info))
+    return preview + '\n'.join(strings)
 
 def get_later(player: Player, name: str, time_left: str):
     '''_summary_

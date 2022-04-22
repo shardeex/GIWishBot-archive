@@ -1,4 +1,4 @@
-from typing import cast
+from typing import Callable, cast
 
 from app import genshin
 
@@ -67,3 +67,13 @@ def numbers_by_rarity(
             numbers[rarity] += items[rarity][i]['number']
     
     return numbers
+
+def items_by_condition(
+    item_ids: set,
+    condition: Callable = lambda *args: True
+    ) -> list:
+    items = [None, [], [], [], [], []]
+    for identifier in item_ids:
+        if condition(item := genshin.items[identifier]):
+            items[item.rarity].append(item)
+    return items

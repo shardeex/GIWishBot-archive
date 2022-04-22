@@ -1,3 +1,1 @@
-from .command import *
-from .callback import *
-from .inline import *
+from . import message, callback, inline

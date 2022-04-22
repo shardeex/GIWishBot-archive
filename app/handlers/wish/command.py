@@ -20,7 +20,7 @@ async def cmd(
     username = html.quote(message.from_user.full_name)
     is_wish, time_left = wish.availability.check(lang, player)
     # unlimited wishes!
-    # is_wish, time_left = True, 0
+    is_wish, time_left = True, 0
 
     if is_wish:
         item = wish.items.get(player)

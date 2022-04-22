@@ -1,4 +1,4 @@
-from aiogram import types
+from aiogram import html, types
 from aiogram.utils.i18n.core import I18n
 
 from app.modules import inv
@@ -28,7 +28,7 @@ async def call(
         return
 
     category = callback_data.category
-    username = query.from_user.full_name
+    username = html.quote(query.from_user.full_name)
 
     items = inv.load.items_by_rarity(player.inventory, category=category)
     names = inv.load.names_by_rarity(

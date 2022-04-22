@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GIWishBot 2.6.3\n"
+"Project-Id-Version: GIWishBot 2.6.4\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-04-08 11:49+0300\n"
+"POT-Creation-Date: 2022-04-22 18:06+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
+
+#: app/handlers/profile/inline/showcase/character.py:32
+msgid "No free characters! :("
+msgstr ""
+
+#: app/handlers/profile/inline/showcase/weapon.py:34
+msgid "No free equipable weapons! :("
+msgstr ""
 
 #: app/keyboards/inline/inv/category.py:19
 msgid "All"
@@ -29,30 +37,70 @@ msgstr ""
 msgid "Weapons"
 msgstr ""
 
-#: app/modules/help/message.py:17
+#: app/keyboards/inline/profile/edit.py:13
+msgid "Edit showcase"
+msgstr ""
+
+#: app/keyboards/inline/profile/edit.py:17
+msgid "Edit namecard"
+msgstr ""
+
+#: app/keyboards/inline/profile/edit.py:21
+#: app/keyboards/inline/profile/showcase/character.py:21
+#: app/keyboards/inline/profile/showcase/slot.py:17
+#: app/keyboards/inline/profile/showcase/weapon.py:17
+msgid "Cancel editing"
+msgstr ""
+
+#: app/keyboards/inline/profile/main.py:13
+msgid "Open profile"
+msgstr ""
+
+#: app/keyboards/inline/profile/main.py:17
+msgid "Edit profile"
+msgstr ""
+
+#: app/keyboards/inline/profile/showcase/character.py:13
+msgid "Select character"
+msgstr ""
+
+#: app/keyboards/inline/profile/showcase/character.py:17
+msgid "Clear slot"
+msgstr ""
+
+#: app/keyboards/inline/profile/showcase/slot.py:13
+msgid "Slot #{number}"
+msgstr ""
+
+#: app/keyboards/inline/profile/showcase/weapon.py:13
+msgid "Select weapon"
+msgstr ""
+
+#: app/modules/help/message.py:27
 msgid "<b>{bot.full_name} 🇺🇸 | @{bot.username}</b>"
 msgstr ""
 
-#: app/modules/help/message.py:18
+#: app/modules/help/message.py:30
 msgid "Special thanks goes to:"
 msgstr ""
 
-#: app/modules/help/message.py:19
+#: app/modules/help/message.py:33
 msgid ""
-"✦ <b><a href=\"ambr.top\">Project Amber</a></b> for the game data and "
-"character pictures."
+"✦ <b><a href=\"{links.amber}\">Project Amber</a></b> for the game data "
+"and character pictures."
 msgstr ""
 
-#: app/modules/help/message.py:21
+#: app/modules/help/message.py:37
 msgid ""
-"✦ <b><a href=\"https://t.me/vsratoteivat\">Vsratiy Teyvat</a></b> for the"
-" active help in bot development and testing."
+"✦ <b><a href=\"{links.celestia}\">Project Celestia</a></b> for weapon "
+"pictures."
 msgstr ""
 
-#: app/modules/help/message.py:23
+#: app/modules/help/message.py:41
 msgid ""
-"<b><a href=\"https://github.com/shardeex/GIWishBot\">GitHub</a></b> | "
-"<b><a href=\"https://t.me/shardeex\">Author</a></b> | <b>v{version}</b>"
+"<b><a href=\"{links.github}\">GitHub</a></b> | <b><a "
+"href=\"{links.author}\">Author</a></b> | <b><a "
+"href=\"{links.channel}\">Channel</a></b> | <b>v{version}</b>"
 msgstr ""
 
 #: app/modules/inv/message.py:22
@@ -79,40 +127,118 @@ msgstr ""
 msgid "Do not use not your buttons!"
 msgstr ""
 
-#: app/modules/profile/message.py:18
+#: app/modules/profile/message/edit.py:7
+msgid "Please select editing option."
+msgstr ""
+
+#: app/modules/profile/message/invalid.py:7
+msgid "Invalid callback data."
+msgstr ""
+
+#: app/modules/profile/message/main.py:24
 msgid "<b>{mention}</b>' profile:"
 msgstr ""
 
-#: app/modules/profile/message.py:21
+#: app/modules/profile/message/main.py:29
 msgid "<b>Wish Counter:</b>"
 msgstr ""
 
-#: app/modules/profile/message.py:23
-msgid "<b>[{number}]</b> 5{star} Pity <i>(guaranteed at 90)</i>"
-msgstr ""
-
-#: app/modules/profile/message.py:26
-msgid "<b>[{number}]</b> 4{star} Pity <i>(guaranteed at 10)</i>"
-msgstr ""
-
-#: app/modules/profile/message.py:29
+#: app/modules/profile/message/main.py:32
 msgid "<b>[{number}]</b> Lifetime wishes"
 msgstr ""
 
-#: app/modules/profile/message.py:32
+#: app/modules/profile/message/main.py:35
+msgid "<b>[{number}]</b> 5{star} Pity <i>(guaranteed at 90)</i>"
+msgstr ""
+
+#: app/modules/profile/message/main.py:38
+msgid "<b>[{number}]</b> 4{star} Pity <i>(guaranteed at 10)</i>"
+msgstr ""
+
+#: app/modules/profile/message/main.py:43
 msgid "<b>Precious items <u>(not spendable yet)</u>:</b>"
 msgstr ""
 
-#: app/modules/profile/message.py:34
+#: app/modules/profile/message/main.py:46
 msgid "<b>[{number}]</b> Masterless Stardust"
 msgstr ""
 
-#: app/modules/profile/message.py:37
+#: app/modules/profile/message/main.py:50
 msgid "<b>[{number}]</b> Masterless Starglitter"
 msgstr ""
 
-#: app/modules/profile/message.py:40
+#: app/modules/profile/message/main.py:54
 msgid "<b>[{number}]</b> Genesis Crystals"
+msgstr ""
+
+#: app/modules/profile/message/main.py:59
+msgid "<b>Character showcase:</b>"
+msgstr ""
+
+#: app/modules/profile/message/main.py:63
+msgid ""
+"<b><a href=\"{links.edit_profile}\">Tap here</a></b> to edit your "
+"character showcase."
+msgstr ""
+
+#: app/modules/profile/message/main.py:71
+msgid "[{position}] No character in slot."
+msgstr ""
+
+#: app/modules/profile/message/main.py:75
+msgid "[{position}] {character} & {weapon}"
+msgstr ""
+
+#: app/modules/profile/message/namecard.py:7
+msgid "Coming soon..."
+msgstr ""
+
+#: app/modules/profile/message/via_bot.py:7
+msgid "Please select item via bot inline-mode or cancel."
+msgstr ""
+
+#: app/modules/profile/message/showcase/character.py:7
+msgid ""
+"Selected slot #{slot}.\n"
+"Please select showcase slot character."
+msgstr ""
+
+#: app/modules/profile/message/showcase/cleared_slot.py:7
+msgid "Slot #{slot} was successfully cleared."
+msgstr ""
+
+#: app/modules/profile/message/showcase/no_characters.py:7
+msgid "Sorry, but it seems that you have no free characters left."
+msgstr ""
+
+#: app/modules/profile/message/showcase/no_weapons.py:7
+msgid ""
+"Sorry, but it seems that you have no free equipable weapons for this "
+"character left."
+msgstr ""
+
+#: app/modules/profile/message/showcase/player_answer_no_characters.py:7
+msgid "s-sorry, I have no free characters..."
+msgstr ""
+
+#: app/modules/profile/message/showcase/player_answer_no_weapons.py:7
+msgid "s-sorry, I have no free equipable weapons..."
+msgstr ""
+
+#: app/modules/profile/message/showcase/slot.py:7
+msgid "Please select showcase slot you want to edit."
+msgstr ""
+
+#: app/modules/profile/message/showcase/slot_edited.py:7
+msgid ""
+"Successfully set <b>{char_name}</b> with <b>{wepn_name}</b> to slot "
+"#{slot}! Check your profile!"
+msgstr ""
+
+#: app/modules/profile/message/showcase/weapon.py:7
+msgid ""
+"Selected <b>{char_name}</b> for slot #{slot}.\n"
+"Please select showcase slot weapon."
 msgstr ""
 
 #: app/modules/wish/message.py:29
@@ -123,11 +249,11 @@ msgstr ""
 msgid "{mention}, you received <b>{name}</b>! {info}"
 msgstr ""
 
-#: app/modules/wish/message.py:44
+#: app/modules/wish/message.py:43
 msgid "{mention}, you can wish again in {time_left}."
 msgstr ""
 
-#: app/modules/wish/message.py:52
+#: app/modules/wish/message.py:51
 msgid ""
 "You can wish in group chat to get <b>Masterless Stardust</b> and "
 "<b>Masterless Starglitter</b>."
