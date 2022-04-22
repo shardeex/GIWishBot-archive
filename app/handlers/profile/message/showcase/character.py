@@ -17,7 +17,7 @@ async def inline(
     ) -> None:
     bot_user = await bot.me()
 
-    if message.via_bot.id != bot_user.id:
+    if not message.via_bot or message.via_bot.id != bot_user.id:
         text = profile.message.via_bot.get()
         await message.reply(text)
         return
